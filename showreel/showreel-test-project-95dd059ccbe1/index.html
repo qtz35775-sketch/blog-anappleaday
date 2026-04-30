@@ -55,7 +55,14 @@
 
 
 
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
@@ -64,11 +71,7 @@
 
 
 
-  <!-- hexo injector head_end start -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="An apple aDay" type="application/atom+xml">
+  <meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="An apple aDay" type="application/atom+xml">
 </head>
   <body>
     <div class="mask-border">
@@ -152,14 +155,14 @@
             
                 
                     <span class="post-tag">
-                        <a href="/tags/Hexo/">
-                            Hexo
+                        <a href="/tags/Web/">
+                            Web
                         </a>
                     </span>    
                 
                     <span class="post-tag">
-                        <a href="/tags/Web/">
-                            Web
+                        <a href="/tags/Hexo/">
+                            Hexo
                         </a>
                     </span>    
                            

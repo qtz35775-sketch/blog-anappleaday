@@ -55,7 +55,14 @@
 
 
 
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
@@ -64,11 +71,7 @@
 
 
 
-  <!-- hexo injector head_end start -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="An apple aDay" type="application/atom+xml">
+  <meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="An apple aDay" type="application/atom+xml">
 </head>
   <body>
     <div class="mask-border">
@@ -185,21 +188,23 @@
 </div>
     <div class="post-content" style="zoom:0.85">
     <p>本文用于测试 MathJax 数学公式渲染效果。</p>
-<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E &#x3D; mc^2$ 是物理学中最著名的公式之一。</p>
-<p>圆的面积公式为 $A &#x3D; \pi r^2$，其中 $r$ 是半径。</p>
+<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E = mc^2$ 是物理学中最著名的公式之一。</p>
+<p>圆的面积公式为 $A = \pi r^2$，其中 $r$ 是半径。</p>
 <h2 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h2><p>欧拉恒等式：</p>
-<p>$$e^{i\pi} + 1 &#x3D; 0$$</p>
+<p>$$e^{i\pi} + 1 = 0$$</p>
 <p>高斯积分：</p>
-<p>$$\int_{-\infty}^{\infty} e^{-x^2} , dx &#x3D; \sqrt{\pi}$$</p>
-<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 2×2 矩阵的行列式：</p>
-<p>$$\det \begin{pmatrix} a &amp; b \ c &amp; d \end{pmatrix} &#x3D; ad - bc$$</p>
+<p>$$\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$$</p>
+<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 3×3 矩阵：</p>
+<p>$$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$</p>
+<p>一个 2×2 矩阵的行列式：</p>
+<p>$$\det \left( \begin{bmatrix} a & b \\ c & d \end{bmatrix} \right) = ad - bc$$</p>
 <h2 id="求和与极限"><a href="#求和与极限" class="headerlink" title="求和与极限"></a>求和与极限</h2><p>自然数求和：</p>
-<p>$$\sum_{k&#x3D;1}^{n} k &#x3D; \frac{n(n+1)}{2}$$</p>
+<p>$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$</p>
 <p>极限定义：</p>
-<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n &#x3D; e$$</p>
-<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f’(x) , dx &#x3D; f(b) - f(a)$$</p>
-<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} &#x3D; \frac{\rho}{\varepsilon_0}$$</p>
-<p>$$\nabla \times \mathbf{B} &#x3D; \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
+<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e$$</p>
+<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f'(x) \, dx = f(b) - f(a)$$</p>
+<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}$$</p>
+<p>$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
 
 </div> 
 
