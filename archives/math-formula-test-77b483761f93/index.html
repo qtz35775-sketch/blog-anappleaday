@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="L²w">
+
+
+    <meta name="subtitle" content="每天一个新发现">
+
+
+    <meta name="description" content="L²w 的个人博客，分享技术、生活与灵感">
+
+
+    <meta name="keywords" content="博客, 技术, 生活, 灵感, hexo">
+
+
+
+
+<title>数学公式渲染测试 | An apple aDay</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+</style>
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/menu.js"></script>
+    
+    <script src="/js/scenes/cloudtrain.js"></script>
+    
+    <script src="/js/shader-engine.js"></script>
+    
+
+
+
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+
+
+
+
+  <!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="An apple aDay" type="application/atom+xml">
+</head>
+  <body>
+    <div class="mask-border">
+    </div>
+
+    <div class="wrapper">
+
+      <div class="header">
+  <div class="flex-container">
+    <div class="header-inner">
+      <div class="site-brand-container">
+        <a href="/">
+          
+            An apple aDay.
+          
+        </a>
+      </div>
+      <div id="menu-btn" class="menu-btn" onclick="toggleMenu()">
+        Menu
+      </div>
+      <nav class="site-nav">
+        <ul class="menu-list">
+          
+            
+              <li class="menu-item">
+                <a href="/">首页</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/archives/">技术文章</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/diary/">生活记录</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/tag/">标签</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/showreel/">作品集</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/about/">关于</a>
+              </li> 
+                   
+          
+          
+            <li class="menu-item search-btn">
+              <a href="#">Search</a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<script src="/js/menu.js"></script>
+
+
+      <div class="main">
+        <div class="flex-container">
+          <article id="post">
+
+  
+    <div class="post-head">
+    <div class="post-info">
+        <div class="tag-list">
+            
+                
+                    <span class="post-tag">
+                        <a href="/tags/%E6%95%99%E7%A8%8B/">
+                            教程
+                        </a>
+                    </span>    
+                
+                    <span class="post-tag">
+                        <a href="/tags/%E6%95%B0%E5%AD%A6/">
+                            数学
+                        </a>
+                    </span>    
+                           
+            
+        </div>
+        <div class="post-title">
+            
+            
+                数学公式渲染测试
+            
+            
+        </div>
+        <span class="post-date">
+            2026年4月30日
+        </span>
+    </div>
+    <div class="post-img">
+        
+        
+            <div class="h-line-primary"></div>
+        
+    </div>
+</div>
+    <div class="post-content" style="zoom:0.85">
+    <p>本文用于测试 MathJax 数学公式渲染效果。</p>
+<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E &#x3D; mc^2$ 是物理学中最著名的公式之一。</p>
+<p>圆的面积公式为 $A &#x3D; \pi r^2$，其中 $r$ 是半径。</p>
+<h2 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h2><p>欧拉恒等式：</p>
+<p>$$e^{i\pi} + 1 &#x3D; 0$$</p>
+<p>高斯积分：</p>
+<p>$$\int_{-\infty}^{\infty} e^{-x^2} , dx &#x3D; \sqrt{\pi}$$</p>
+<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 2×2 矩阵的行列式：</p>
+<p>$$\det \begin{pmatrix} a &amp; b \ c &amp; d \end{pmatrix} &#x3D; ad - bc$$</p>
+<h2 id="求和与极限"><a href="#求和与极限" class="headerlink" title="求和与极限"></a>求和与极限</h2><p>自然数求和：</p>
+<p>$$\sum_{k&#x3D;1}^{n} k &#x3D; \frac{n(n+1)}{2}$$</p>
+<p>极限定义：</p>
+<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n &#x3D; e$$</p>
+<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f’(x) , dx &#x3D; f(b) - f(a)$$</p>
+<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} &#x3D; \frac{\rho}{\varepsilon_0}$$</p>
+<p>$$\nabla \times \mathbf{B} &#x3D; \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
+
+</div> 
+
+<script>
+    window.onload = detectors();
+</script>
+    <div class="post-footer">
+    <div class="h-line-primary"></div>
+    <nav class="post-nav">
+        <div class="prev-item">
+           
+        </div>
+        <div class="next-item">
+            
+                <div class="icon arrow-right"></div>
+                <div class="post-link">
+                  <a href="/showreel/showreel-test-project-95dd059ccbe1/">Next</a>  
+                </div>  
+            
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="post-comment">
+
+     
+
+     
+    
+    
+
+</div>
+     
+  
+</article>
+        </div>
+      </div>
+      
+      <div class="footer">
+    <div class="flex-container">
+        <div class="footer-text">
+            
+            
+                © 2026  L²w | 
+            
+            
+                Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & <a target="_blank" rel="noopener" href="https://github.com/zoeingwingkei/frame/">Frame</a>
+                
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    
+      <div class="search-popup">
+    <div class="search-popup-overlay">  
+    </div>
+    <div class="search-popup-window" >
+        <div class="search-header">
+            <div class="search-input-container">
+              <input autocomplete="off" autocapitalize="off" maxlength="80"
+                     placeholder="Search Anything" spellcheck="false"
+                     type="search" class="search-input">
+            </div>
+            <div class="search-close-btn">
+                <div class="icon close-btn"></div>
+            </div>
+        </div>
+        <div class="search-result-container">
+        </div>
+    </div>
+</div>
+
+<script>
+    const searchConfig = {
+        path             : "/search.xml",
+        top_n_per_article: "1",
+        unescape         : "false",
+        trigger: "auto",
+        preload: "true"
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js"></script>
+<script src="/js/search.js"></script>
+    
+    
+
+  </body>
+</html>
