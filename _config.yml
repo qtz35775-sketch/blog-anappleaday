@@ -105,7 +105,7 @@ theme: frame
 deploy:
   type: git
   repo: https://github.com/qtz35775-sketch/blog-anappleaday.git
-  branch: main
+  branch: gh-pages
 
 # Search
 search:
