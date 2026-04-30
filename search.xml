@@ -22,6 +22,25 @@
       </tags>
   </entry>
   <entry>
+    <title>春日花园</title>
+    <url>/diary/gallery-spring-garden-becd0184d8a9/</url>
+    <content><![CDATA[<p>春天的花园是最美的，各种花朵竞相开放，色彩斑斓。</p>
+<h2 id="花开时节"><a href="#花开时节" class="headerlink" title="花开时节"></a>花开时节</h2><p>每年春天，花园里的花朵总是准时绽放。从早春的梅花到晚春的牡丹，每一种花都有自己独特的美。</p>
+<p>走在花间小径上，微风拂过，花瓣轻轻飘落，仿佛置身于一幅流动的画卷之中。</p>
+<h2 id="拍摄心得"><a href="#拍摄心得" class="headerlink" title="拍摄心得"></a>拍摄心得</h2><p>拍花最重要的是光线。清晨和傍晚的柔和光线最适合拍摄花朵，能够展现出花瓣的细腻质感和通透感。</p>
+<blockquote>
+<p>一花一世界，一叶一菩提。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>自然</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>晨间咖啡时光</title>
     <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
     <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
@@ -63,25 +82,6 @@
       <categories>
         <category>archives</category>
       </categories>
-  </entry>
-  <entry>
-    <title>春日花园</title>
-    <url>/diary/gallery-spring-garden-becd0184d8a9/</url>
-    <content><![CDATA[<p>春天的花园是最美的，各种花朵竞相开放，色彩斑斓。</p>
-<h2 id="花开时节"><a href="#花开时节" class="headerlink" title="花开时节"></a>花开时节</h2><p>每年春天，花园里的花朵总是准时绽放。从早春的梅花到晚春的牡丹，每一种花都有自己独特的美。</p>
-<p>走在花间小径上，微风拂过，花瓣轻轻飘落，仿佛置身于一幅流动的画卷之中。</p>
-<h2 id="拍摄心得"><a href="#拍摄心得" class="headerlink" title="拍摄心得"></a>拍摄心得</h2><p>拍花最重要的是光线。清晨和傍晚的柔和光线最适合拍摄花朵，能够展现出花瓣的细腻质感和通透感。</p>
-<blockquote>
-<p>一花一世界，一叶一菩提。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>自然</tag>
-      </tags>
   </entry>
   <entry>
     <title>Markdown 写作技巧与实用语法</title>
@@ -131,38 +131,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo 博客搭建指南</title>
-    <url>/archives/getting-started-with-hexo-394f59b63c70/</url>
-    <content><![CDATA[<p>最近花了一些时间搭建了这个基于 Hexo 的个人博客，在这里记录一下搭建过程和心得体会。</p>
-<h2 id="为什么选择-Hexo"><a href="#为什么选择-Hexo" class="headerlink" title="为什么选择 Hexo"></a>为什么选择 Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。它使用 Markdown 来撰写文章，通过模板引擎生成静态页面，部署简单方便。</p>
-<p>相比其他博客平台，Hexo 有以下优势：</p>
-<ol>
-<li><strong>速度快</strong> - 基于 Node.js，生成速度非常快</li>
-<li><strong>易于部署</strong> - 可以直接部署到 GitHub Pages</li>
-<li><strong>主题丰富</strong> - 社区提供了大量精美的主题</li>
-<li><strong>Markdown 支持</strong> - 使用 Markdown 写作，专注于内容</li>
-</ol>
-<h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>安装完成后，需要修改 <code>_config.yml</code> 文件来配置你的博客：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">你的博客名称</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">你的名字</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h2><p>我选择了 Frame 主题，它的设计简洁优雅，非常适合个人博客。</p>
-<h2 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h2><ul>
-<li>添加更多博客内容</li>
-<li>配置评论系统</li>
-<li>优化 SEO 设置</li>
-</ul>
-<p>希望这篇文章对你有所帮助！</p>
-]]></content>
-      <categories>
-        <category>archives</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>个人博客项目</title>
     <url>/showreel/showreel-test-project-95dd059ccbe1/</url>
     <content><![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p>
@@ -183,8 +151,8 @@
         <category>showreel</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Web</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -233,6 +201,38 @@
       <tags>
         <tag>生活</tag>
         <tag>随想</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 博客搭建指南</title>
+    <url>/archives/getting-started-with-hexo-394f59b63c70/</url>
+    <content><![CDATA[<p>最近花了一些时间搭建了这个基于 Hexo 的个人博客，在这里记录一下搭建过程和心得体会。</p>
+<h2 id="为什么选择-Hexo"><a href="#为什么选择-Hexo" class="headerlink" title="为什么选择 Hexo"></a>为什么选择 Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。它使用 Markdown 来撰写文章，通过模板引擎生成静态页面，部署简单方便。</p>
+<p>相比其他博客平台，Hexo 有以下优势：</p>
+<ol>
+<li><strong>速度快</strong> - 基于 Node.js，生成速度非常快</li>
+<li><strong>易于部署</strong> - 可以直接部署到 GitHub Pages</li>
+<li><strong>主题丰富</strong> - 社区提供了大量精美的主题</li>
+<li><strong>Markdown 支持</strong> - 使用 Markdown 写作，专注于内容</li>
+</ol>
+<h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>安装完成后，需要修改 <code>_config.yml</code> 文件来配置你的博客：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">你的博客名称</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">你的名字</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h2><p>我选择了 Frame 主题，它的设计简洁优雅，非常适合个人博客。</p>
+<h2 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h2><ul>
+<li>添加更多博客内容</li>
+<li>配置评论系统</li>
+<li>优化 SEO 设置</li>
+</ul>
+<p>希望这篇文章对你有所帮助！</p>
+]]></content>
+      <categories>
+        <category>archives</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>

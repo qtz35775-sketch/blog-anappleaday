@@ -36,8 +36,8 @@
       <name>L²w</name>
     </author>
     <category term="showreel" scheme="https://anappleaday.top/showreel/"/>
-    <category term="Hexo" scheme="https://anappleaday.top/tags/Hexo/"/>
     <category term="Web" scheme="https://anappleaday.top/tags/Web/"/>
+    <category term="Hexo" scheme="https://anappleaday.top/tags/Hexo/"/>
     <content>
       <![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p><h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ul><li><strong>框架</strong>: Hexo</li><li><strong>主题</strong>: Frame（自定义修改）</li><li><strong>部署</strong>: GitHub Pages</li><li><strong>域名</strong>: anappleaday.top</li></ul><h2 id="功能特点"><a href="#功能特点" class="headerlink" title="功能特点"></a>功能特点</h2><ul><li>响应式布局，适配移动端</li><li>支持文章分类与标签管理</li><li>图片画廊展示</li><li>简洁优雅的阅读体验</li></ul>]]>
     </content>
