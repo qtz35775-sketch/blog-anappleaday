@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>城市夜景</title>
+    <url>/diary/gallery-city-night-4155695dd6cb/</url>
+    <content><![CDATA[<p>当夜幕降临，城市展现出了它完全不同的一面。灯光璀璨，霓虹闪烁，每一个角落都有故事。</p>
+<h2 id="夜晚的魅力"><a href="#夜晚的魅力" class="headerlink" title="夜晚的魅力"></a>夜晚的魅力</h2><p>白天喧嚣的城市在夜晚变得格外迷人。高楼大厦的灯光倒映在河面上，形成一幅绚丽的画面。</p>
+<h2 id="夜景拍摄技巧"><a href="#夜景拍摄技巧" class="headerlink" title="夜景拍摄技巧"></a>夜景拍摄技巧</h2><ol>
+<li><strong>使用三脚架</strong> - 长曝光是夜景拍摄的基础</li>
+<li><strong>低 ISO</strong> - 减少噪点，保持画面纯净</li>
+<li><strong>手动对焦</strong> - 自动对焦在暗光下容易失误</li>
+<li><strong>尝试不同快门速度</strong> - 不同的曝光时间会带来不同的效果</li>
+</ol>
+<p>城市的夜，永远有着说不完的故事。</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>城市</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>晨间咖啡时光</title>
+    <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
+    <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
+<h2 id="咖啡与生活"><a href="#咖啡与生活" class="headerlink" title="咖啡与生活"></a>咖啡与生活</h2><p>对我来说，咖啡不仅仅是一种饮品，更是一种生活方式。每天清晨，磨豆、冲泡、品尝，这个过程本身就是一种仪式感。</p>
+<h2 id="手冲咖啡入门"><a href="#手冲咖啡入门" class="headerlink" title="手冲咖啡入门"></a>手冲咖啡入门</h2><p>如果你也想尝试手冲咖啡，这里有几个基本建议：</p>
+<ul>
+<li>选择新鲜烘焙的咖啡豆</li>
+<li>水温控制在 88-92°C</li>
+<li>研磨度要适中，类似粗砂糖</li>
+<li>注水要均匀，画圆圈注入</li>
+</ul>
+<p>享受每一个清晨，从一杯好咖啡开始。</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/archives/hello-world-510ae1fa606d/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>archives</category>
+      </categories>
+  </entry>
+  <entry>
     <title>春日花园</title>
     <url>/diary/gallery-spring-garden-becd0184d8a9/</url>
     <content><![CDATA[<p>春天的花园是最美的，各种花朵竞相开放，色彩斑斓。</p>
@@ -52,46 +116,32 @@
       </tags>
   </entry>
   <entry>
-    <title>城市夜景</title>
-    <url>/diary/gallery-city-night-4155695dd6cb/</url>
-    <content><![CDATA[<p>当夜幕降临，城市展现出了它完全不同的一面。灯光璀璨，霓虹闪烁，每一个角落都有故事。</p>
-<h2 id="夜晚的魅力"><a href="#夜晚的魅力" class="headerlink" title="夜晚的魅力"></a>夜晚的魅力</h2><p>白天喧嚣的城市在夜晚变得格外迷人。高楼大厦的灯光倒映在河面上，形成一幅绚丽的画面。</p>
-<h2 id="夜景拍摄技巧"><a href="#夜景拍摄技巧" class="headerlink" title="夜景拍摄技巧"></a>夜景拍摄技巧</h2><ol>
-<li><strong>使用三脚架</strong> - 长曝光是夜景拍摄的基础</li>
-<li><strong>低 ISO</strong> - 减少噪点，保持画面纯净</li>
-<li><strong>手动对焦</strong> - 自动对焦在暗光下容易失误</li>
-<li><strong>尝试不同快门速度</strong> - 不同的曝光时间会带来不同的效果</li>
-</ol>
-<p>城市的夜，永远有着说不完的故事。</p>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>城市</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/archives/hello-world-510ae1fa606d/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>数学公式渲染测试</title>
+    <url>/archives/math-formula-test-77b483761f93/</url>
+    <content><![CDATA[<p>本文用于测试 MathJax 数学公式渲染效果。</p>
+<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E &#x3D; mc^2$ 是物理学中最著名的公式之一。</p>
+<p>圆的面积公式为 $A &#x3D; \pi r^2$，其中 $r$ 是半径。</p>
+<h2 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h2><p>欧拉恒等式：</p>
+<p>$$e^{i\pi} + 1 &#x3D; 0$$</p>
+<p>高斯积分：</p>
+<p>$$\int_{-\infty}^{\infty} e^{-x^2} , dx &#x3D; \sqrt{\pi}$$</p>
+<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 2×2 矩阵的行列式：</p>
+<p>$$\det \begin{pmatrix} a &amp; b \ c &amp; d \end{pmatrix} &#x3D; ad - bc$$</p>
+<h2 id="求和与极限"><a href="#求和与极限" class="headerlink" title="求和与极限"></a>求和与极限</h2><p>自然数求和：</p>
+<p>$$\sum_{k&#x3D;1}^{n} k &#x3D; \frac{n(n+1)}{2}$$</p>
+<p>极限定义：</p>
+<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n &#x3D; e$$</p>
+<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f’(x) , dx &#x3D; f(b) - f(a)$$</p>
+<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} &#x3D; \frac{\rho}{\varepsilon_0}$$</p>
+<p>$$\nabla \times \mathbf{B} &#x3D; \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
 ]]></content>
       <categories>
         <category>archives</category>
       </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>数学</tag>
+      </tags>
   </entry>
   <entry>
     <title>Markdown 写作技巧与实用语法</title>
@@ -138,56 +188,6 @@
         <tag>教程</tag>
         <tag>Markdown</tag>
         <tag>写作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>晨间咖啡时光</title>
-    <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
-    <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
-<h2 id="咖啡与生活"><a href="#咖啡与生活" class="headerlink" title="咖啡与生活"></a>咖啡与生活</h2><p>对我来说，咖啡不仅仅是一种饮品，更是一种生活方式。每天清晨，磨豆、冲泡、品尝，这个过程本身就是一种仪式感。</p>
-<h2 id="手冲咖啡入门"><a href="#手冲咖啡入门" class="headerlink" title="手冲咖啡入门"></a>手冲咖啡入门</h2><p>如果你也想尝试手冲咖啡，这里有几个基本建议：</p>
-<ul>
-<li>选择新鲜烘焙的咖啡豆</li>
-<li>水温控制在 88-92°C</li>
-<li>研磨度要适中，类似粗砂糖</li>
-<li>注水要均匀，画圆圈注入</li>
-</ul>
-<p>享受每一个清晨，从一杯好咖啡开始。</p>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学公式渲染测试</title>
-    <url>/archives/math-formula-test-77b483761f93/</url>
-    <content><![CDATA[<p>本文用于测试 MathJax 数学公式渲染效果。</p>
-<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E &#x3D; mc^2$ 是物理学中最著名的公式之一。</p>
-<p>圆的面积公式为 $A &#x3D; \pi r^2$，其中 $r$ 是半径。</p>
-<h2 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h2><p>欧拉恒等式：</p>
-<p>$$e^{i\pi} + 1 &#x3D; 0$$</p>
-<p>高斯积分：</p>
-<p>$$\int_{-\infty}^{\infty} e^{-x^2} , dx &#x3D; \sqrt{\pi}$$</p>
-<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 2×2 矩阵的行列式：</p>
-<p>$$\det \begin{pmatrix} a &amp; b \ c &amp; d \end{pmatrix} &#x3D; ad - bc$$</p>
-<h2 id="求和与极限"><a href="#求和与极限" class="headerlink" title="求和与极限"></a>求和与极限</h2><p>自然数求和：</p>
-<p>$$\sum_{k&#x3D;1}^{n} k &#x3D; \frac{n(n+1)}{2}$$</p>
-<p>极限定义：</p>
-<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n &#x3D; e$$</p>
-<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f’(x) , dx &#x3D; f(b) - f(a)$$</p>
-<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} &#x3D; \frac{\rho}{\varepsilon_0}$$</p>
-<p>$$\nabla \times \mathbf{B} &#x3D; \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
-]]></content>
-      <categories>
-        <category>archives</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
