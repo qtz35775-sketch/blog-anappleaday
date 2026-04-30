@@ -36,8 +36,8 @@
       <name>L²w</name>
     </author>
     <category term="showreel" scheme="https://anappleaday.top/showreel/"/>
-    <category term="Web" scheme="https://anappleaday.top/tags/Web/"/>
     <category term="Hexo" scheme="https://anappleaday.top/tags/Hexo/"/>
+    <category term="Web" scheme="https://anappleaday.top/tags/Web/"/>
     <content>
       <![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p><h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ul><li><strong>框架</strong>: Hexo</li><li><strong>主题</strong>: Frame（自定义修改）</li><li><strong>部署</strong>: GitHub Pages</li><li><strong>域名</strong>: anappleaday.top</li></ul><h2 id="功能特点"><a href="#功能特点" class="headerlink" title="功能特点"></a>功能特点</h2><ul><li>响应式布局，适配移动端</li><li>支持文章分类与标签管理</li><li>图片画廊展示</li><li>简洁优雅的阅读体验</li></ul>]]>
     </content>
@@ -97,9 +97,9 @@
       <name>L²w</name>
     </author>
     <category term="archives" scheme="https://anappleaday.top/archives/"/>
+    <category term="教程" scheme="https://anappleaday.top/tags/%E6%95%99%E7%A8%8B/"/>
     <category term="Markdown" scheme="https://anappleaday.top/tags/Markdown/"/>
     <category term="写作" scheme="https://anappleaday.top/tags/%E5%86%99%E4%BD%9C/"/>
-    <category term="教程" scheme="https://anappleaday.top/tags/%E6%95%99%E7%A8%8B/"/>
     <content>
       <![CDATA[<p>Markdown 是一种轻量级标记语言，让你可以用纯文本格式来编写文档。今天来分享一些实用的 Markdown 技巧。</p><h2 id="基础语法回顾"><a href="#基础语法回顾" class="headerlink" title="基础语法回顾"></a>基础语法回顾</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>使用 <code>#</code> 号来创建标题，一个 <code>#</code> 是一级标题，两个 <code>##</code> 是二级标题，以此类推。</p><h3 id="文本样式"><a href="#文本样式" class="headerlink" title="文本样式"></a>文本样式</h3><ul><li><strong>粗体</strong> 使用 <code>**文本**</code></li><li><em>斜体</em> 使用 <code>*文本*</code></li><li><del>删除线</del> 使用 <code>~~文本~~</code></li></ul><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>无序列表使用 <code>-</code> 或 <code>*</code>，有序列表使用数字加 <code>.</code>。</p><h2 id="进阶技巧"><a href="#进阶技巧" class="headerlink" title="进阶技巧"></a>进阶技巧</h2><h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>使用三个反引号可以创建代码块，并指定语言实现语法高亮：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">hello</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table><thead><tr><th>功能</th><th>语法</th><th>效果</th></tr></thead><tbody><tr><td>粗体</td><td><code>**文本**</code></td><td><strong>文本</strong></td></tr><tr><td>链接</td><td><code>[文本](URL)</code></td><td><a href="#">文本</a></td></tr></tbody></table><h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><blockquote><p>好的写作工具能让你专注于内容本身。<br>—— 某位智者</p></blockquote><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>掌握 Markdown 的基础语法后，你就能高效地撰写博客文章了。关键是多练习，让语法成为你的肌肉记忆。</p>]]>
     </content>
@@ -138,8 +138,8 @@
       <name>L²w</name>
     </author>
     <category term="archives" scheme="https://anappleaday.top/archives/"/>
-    <category term="教程" scheme="https://anappleaday.top/tags/%E6%95%99%E7%A8%8B/"/>
     <category term="Hexo" scheme="https://anappleaday.top/tags/Hexo/"/>
+    <category term="教程" scheme="https://anappleaday.top/tags/%E6%95%99%E7%A8%8B/"/>
     <category term="博客" scheme="https://anappleaday.top/tags/%E5%8D%9A%E5%AE%A2/"/>
     <content>
       <![CDATA[<p>最近花了一些时间搭建了这个基于 Hexo 的个人博客，在这里记录一下搭建过程和心得体会。</p><h2 id="为什么选择-Hexo"><a href="#为什么选择-Hexo" class="headerlink" title="为什么选择 Hexo"></a>为什么选择 Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。它使用 Markdown 来撰写文章，通过模板引擎生成静态页面，部署简单方便。</p><p>相比其他博客平台，Hexo 有以下优势：</p><ol><li><strong>速度快</strong> - 基于 Node.js，生成速度非常快</li><li><strong>易于部署</strong> - 可以直接部署到 GitHub Pages</li><li><strong>主题丰富</strong> - 社区提供了大量精美的主题</li><li><strong>Markdown 支持</strong> - 使用 Markdown 写作，专注于内容</li></ol><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>安装完成后，需要修改 <code>_config.yml</code> 文件来配置你的博客：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">你的博客名称</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">你的名字</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></span><br></pre></td></tr></table></figure><h2 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h2><p>我选择了 Frame 主题，它的设计简洁优雅，非常适合个人博客。</p><h2 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h2><ul><li>添加更多博客内容</li><li>配置评论系统</li><li>优化 SEO 设置</li></ul><p>希望这篇文章对你有所帮助！</p>]]>
