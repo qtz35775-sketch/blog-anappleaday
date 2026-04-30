@@ -1,0 +1,97 @@
+
+# html lang
+language: zh
+
+# header
+site_brand_name: An apple aDay.
+
+logo_image:
+  enable: false
+  image_path: /logo.png # path to your logo image
+
+menu:
+  首页: /
+  技术文章: /archives/
+  生活记录: /diary/
+  标签: /tag/
+  作品集: /showreel/
+  关于: /about/
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/style.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/menu.js
+- /js/scenes/cloudtrain.js
+- /js/shader-engine.js
+
+# favicon
+favicon: /favicon.ico
+
+date_format: YYYY年M月D日
+
+# 文章正文缩放比例 (0.85=缩小到85%, 1=默认, 1.2=放大到120%)
+article_zoom: 0.85
+
+# profile
+profile:
+  title: Hi, this is L²w.
+  body: An apple aDay, better every day.<br><small>铢积寸累，日就月将</small>
+  image: /profile_cover.jpg
+  shader_scale: 1.0 # 渲染区域缩放倍率
+  shader_halign: right # 渲染区域水平位置: left / right
+  shader_valign: center # 渲染区域垂直对齐: top / center / bottom
+  center_page: true # true=相对页面垂直居中, false=保持靠上布局
+  shader_shadow_color: "rgba(180,100,50,0.4)" # 浮动卡片投影颜色
+
+  links:
+    技术文章: /archives/
+    生活记录: /diary/
+    作品集: /showreel/
+    关于: /about/
+
+# footer
+footer:
+  copyright_info:
+    enable: true
+    author: © 2026  L²w
+
+  powered_by: # Powered by Hexo & Frame
+    enable: true
+
+  other_info:
+    enable: false
+    content: L²w's blog.
+
+# color mode: default / classic / dark
+color_mode: default
+
+# mathjax setting
+# note: need to install the hexo plugin for math: https://github.com/hexojs/hexo-math
+mathjax_enable: true
+
+# comments: support disqus and valine
+valine: # valine setup guide: https://valine.js.org/quickstart.html
+  enable: false
+  appId: # Your valine app Id
+  appKey: # Your valine app Key
+  lang: 'zh'
+  placeholder: 'Say something'
+  avatar: 'mp'
+  meta: ['nick', 'mail']
+
+disqus: # disqus setup guide: https://help.disqus.com/en/articles/1717056-publisher-quick-start-guide
+  enable: false
+  disqus_url: # your diqsuq url or shortname
+  language: 'zh'
+
+# local search
+local_search:
+  enable: true
+  place_holder: Search Anything
+  trigger: auto # auto: trigger search whenever input changes
+  top_n_per_article: 1 # show top n results per article, show all results by setting to -1
+  unescape: false # unescape html strings to the readable one
+  preload: true # reload the search data when the page loads, this will accelerate the search process

@@ -1,0 +1,43 @@
+<%
+var _halign = (theme.profile.shader_halign || 'right') === 'left' ? 'row' : 'row-reverse';
+var _valignMap = { top: 'flex-start', center: 'center', bottom: 'flex-end' };
+var _valign = _valignMap[theme.profile.shader_valign] || 'flex-start';
+%>
+<% if (theme.profile.center_page) { %>
+<style>
+@media (min-width: 481px) {
+  .main { display:flex; flex-direction:column; }
+  .main > .flex-container { flex:1; display:flex; flex-direction:column; justify-content:center; }
+}
+</style>
+<% } %>
+<div class="profile" style="flex-direction:<%= _halign %>;align-items:<%= _valign %>">
+    <div class="profile-image" style="--shader-scale:<%= theme.profile.shader_scale || 1 %>;--shader-shadow-color:<%= theme.profile.shader_shadow_color || 'rgba(180,100,50,0.4)' %>">
+        <canvas id="cloudtrain-canvas"
+                data-noise-src="<%= url_for('/bluenoise1024.png') %>"
+                style="display:block;width:100%;aspect-ratio:3/2"></canvas>
+        <% if (theme.profile.image) {%>
+            <img id="cloudtrain-fallback"
+                 src="<%= url_for(theme.profile.image)%>"
+                 alt="featured_image"
+                 style="display:none;">
+        <% } %>
+        <noscript>
+            <style>#cloudtrain-canvas{display:none}#cloudtrain-fallback{display:block!important}</style>
+        </noscript>
+    </div>
+    <div class="post-content profile-content">
+        <div class="profile-title">
+            <%=theme.profile.title%>
+        </div>
+        <div class="profile-body">
+            <%-theme.profile.body%>
+        </div>
+        <% Object.keys(theme.profile.links).forEach(key => { %>
+            <div class="profile-link">
+                <a href="<%= url_for(theme.profile.links[key])%>"><%=key%></a>
+            </div>
+        <% }); %>
+    </div>
+
+</div>
