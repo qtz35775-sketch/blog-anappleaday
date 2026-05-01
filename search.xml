@@ -22,35 +22,25 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo 博客搭建指南</title>
-    <url>/archives/getting-started-with-hexo-394f59b63c70/</url>
-    <content><![CDATA[<p>最近花了一些时间搭建了这个基于 Hexo 的个人博客，在这里记录一下搭建过程和心得体会。</p>
-<h2 id="为什么选择-Hexo"><a href="#为什么选择-Hexo" class="headerlink" title="为什么选择 Hexo"></a>为什么选择 Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。它使用 Markdown 来撰写文章，通过模板引擎生成静态页面，部署简单方便。</p>
-<p>相比其他博客平台，Hexo 有以下优势：</p>
-<ol>
-<li><strong>速度快</strong> - 基于 Node.js，生成速度非常快</li>
-<li><strong>易于部署</strong> - 可以直接部署到 GitHub Pages</li>
-<li><strong>主题丰富</strong> - 社区提供了大量精美的主题</li>
-<li><strong>Markdown 支持</strong> - 使用 Markdown 写作，专注于内容</li>
-</ol>
-<h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>安装完成后，需要修改 <code>_config.yml</code> 文件来配置你的博客：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">你的博客名称</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">你的名字</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h2><p>我选择了 Frame 主题，它的设计简洁优雅，非常适合个人博客。</p>
-<h2 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h2><ul>
-<li>添加更多博客内容</li>
-<li>配置评论系统</li>
-<li>优化 SEO 设置</li>
+    <title>晨间咖啡时光</title>
+    <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
+    <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
+<h2 id="咖啡与生活"><a href="#咖啡与生活" class="headerlink" title="咖啡与生活"></a>咖啡与生活</h2><p>对我来说，咖啡不仅仅是一种饮品，更是一种生活方式。每天清晨，磨豆、冲泡、品尝，这个过程本身就是一种仪式感。</p>
+<h2 id="手冲咖啡入门"><a href="#手冲咖啡入门" class="headerlink" title="手冲咖啡入门"></a>手冲咖啡入门</h2><p>如果你也想尝试手冲咖啡，这里有几个基本建议：</p>
+<ul>
+<li>选择新鲜烘焙的咖啡豆</li>
+<li>水温控制在 88-92°C</li>
+<li>研磨度要适中，类似粗砂糖</li>
+<li>注水要均匀，画圆圈注入</li>
 </ul>
-<p>希望这篇文章对你有所帮助！</p>
+<p>享受每一个清晨，从一杯好咖啡开始。</p>
 ]]></content>
       <categories>
-        <category>archives</category>
+        <category>diary</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>教程</tag>
-        <tag>博客</tag>
+        <tag>摄影</tag>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -98,30 +88,28 @@
         <category>archives</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>数学</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
-    <title>晨间咖啡时光</title>
-    <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
-    <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
-<h2 id="咖啡与生活"><a href="#咖啡与生活" class="headerlink" title="咖啡与生活"></a>咖啡与生活</h2><p>对我来说，咖啡不仅仅是一种饮品，更是一种生活方式。每天清晨，磨豆、冲泡、品尝，这个过程本身就是一种仪式感。</p>
-<h2 id="手冲咖啡入门"><a href="#手冲咖啡入门" class="headerlink" title="手冲咖啡入门"></a>手冲咖啡入门</h2><p>如果你也想尝试手冲咖啡，这里有几个基本建议：</p>
-<ul>
-<li>选择新鲜烘焙的咖啡豆</li>
-<li>水温控制在 88-92°C</li>
-<li>研磨度要适中，类似粗砂糖</li>
-<li>注水要均匀，画圆圈注入</li>
-</ul>
-<p>享受每一个清晨，从一杯好咖啡开始。</p>
+    <title>春日随想：生活中的小确幸</title>
+    <url>/diary/spring-thoughts-11210cde532f/</url>
+    <content><![CDATA[<p>春天是一个让人心情愉悦的季节。今天想聊聊最近生活中的一些小确幸。</p>
+<h2 id="清晨的阳光"><a href="#清晨的阳光" class="headerlink" title="清晨的阳光"></a>清晨的阳光</h2><p>每天早起，看到窗外的阳光洒进房间，总觉得这一天充满了希望。泡一杯茶，坐在窗边，享受这份宁静。</p>
+<h2 id="阅读的乐趣"><a href="#阅读的乐趣" class="headerlink" title="阅读的乐趣"></a>阅读的乐趣</h2><p>最近在读一本关于设计哲学的书，书中提到”少即是多”的理念。这让我想到了这个博客的主题选择——Frame，它的设计正是这种理念的体现。</p>
+<h2 id="编程的快乐"><a href="#编程的快乐" class="headerlink" title="编程的快乐"></a>编程的快乐</h2><p>作为一个技术爱好者，解决一个棘手的 bug 或者实现一个优雅的功能，那种成就感是无法替代的。就像搭建这个博客的过程，虽然有些折腾，但看到最终的效果，一切都值得。</p>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>生活不只有代码和工作，还有很多美好的瞬间值得记录。这也是我开始写博客的初衷——每天一个新发现，An Apple A Day。</p>
+<blockquote>
+<p>生活中从不缺少美，只是缺少发现美的眼睛。</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>diary</category>
       </categories>
       <tags>
-        <tag>摄影</tag>
         <tag>生活</tag>
+        <tag>随想</tag>
       </tags>
   </entry>
   <entry>
@@ -129,7 +117,7 @@
     <url>/showreel/showreel-test-project-95dd059ccbe1/</url>
     <content><![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p>
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 1.5rem;">
   <iframe
     src="https://player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1"
     scrolling="no"
@@ -143,7 +131,7 @@
 
 
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 1.5rem;">
   <iframe
     src="https://player.bilibili.com/player.html?aid=39807850&amp;cid=69927212&amp;page=1"
     scrolling="no"
@@ -187,28 +175,40 @@
         <category>showreel</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Web</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
-    <title>春日随想：生活中的小确幸</title>
-    <url>/diary/spring-thoughts-11210cde532f/</url>
-    <content><![CDATA[<p>春天是一个让人心情愉悦的季节。今天想聊聊最近生活中的一些小确幸。</p>
-<h2 id="清晨的阳光"><a href="#清晨的阳光" class="headerlink" title="清晨的阳光"></a>清晨的阳光</h2><p>每天早起，看到窗外的阳光洒进房间，总觉得这一天充满了希望。泡一杯茶，坐在窗边，享受这份宁静。</p>
-<h2 id="阅读的乐趣"><a href="#阅读的乐趣" class="headerlink" title="阅读的乐趣"></a>阅读的乐趣</h2><p>最近在读一本关于设计哲学的书，书中提到”少即是多”的理念。这让我想到了这个博客的主题选择——Frame，它的设计正是这种理念的体现。</p>
-<h2 id="编程的快乐"><a href="#编程的快乐" class="headerlink" title="编程的快乐"></a>编程的快乐</h2><p>作为一个技术爱好者，解决一个棘手的 bug 或者实现一个优雅的功能，那种成就感是无法替代的。就像搭建这个博客的过程，虽然有些折腾，但看到最终的效果，一切都值得。</p>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>生活不只有代码和工作，还有很多美好的瞬间值得记录。这也是我开始写博客的初衷——每天一个新发现，An Apple A Day。</p>
-<blockquote>
-<p>生活中从不缺少美，只是缺少发现美的眼睛。</p>
-</blockquote>
+    <title>Hexo 博客搭建指南</title>
+    <url>/archives/getting-started-with-hexo-394f59b63c70/</url>
+    <content><![CDATA[<p>最近花了一些时间搭建了这个基于 Hexo 的个人博客，在这里记录一下搭建过程和心得体会。</p>
+<h2 id="为什么选择-Hexo"><a href="#为什么选择-Hexo" class="headerlink" title="为什么选择 Hexo"></a>为什么选择 Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。它使用 Markdown 来撰写文章，通过模板引擎生成静态页面，部署简单方便。</p>
+<p>相比其他博客平台，Hexo 有以下优势：</p>
+<ol>
+<li><strong>速度快</strong> - 基于 Node.js，生成速度非常快</li>
+<li><strong>易于部署</strong> - 可以直接部署到 GitHub Pages</li>
+<li><strong>主题丰富</strong> - 社区提供了大量精美的主题</li>
+<li><strong>Markdown 支持</strong> - 使用 Markdown 写作，专注于内容</li>
+</ol>
+<h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>安装完成后，需要修改 <code>_config.yml</code> 文件来配置你的博客：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">你的博客名称</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">你的名字</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h2><p>我选择了 Frame 主题，它的设计简洁优雅，非常适合个人博客。</p>
+<h2 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h2><ul>
+<li>添加更多博客内容</li>
+<li>配置评论系统</li>
+<li>优化 SEO 设置</li>
+</ul>
+<p>希望这篇文章对你有所帮助！</p>
 ]]></content>
       <categories>
-        <category>diary</category>
+        <category>archives</category>
       </categories>
       <tags>
-        <tag>生活</tag>
-        <tag>随想</tag>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -259,6 +259,11 @@
       </tags>
   </entry>
   <entry>
+    <title>标签</title>
+    <url>/tag/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>关于</title>
     <url>/about/index.html</url>
     <content><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>大家好，我是 <strong>L²w</strong>，一名热爱技术和生活的博主。</p>
@@ -275,10 +280,5 @@
 <li>博客: <a href="https://anappleaday.top/">anappleaday.top</a></li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tag/index.html</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
