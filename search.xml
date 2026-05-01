@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>城市夜景</title>
-    <url>/diary/gallery-city-night-4155695dd6cb/</url>
-    <content><![CDATA[<p>当夜幕降临，城市展现出了它完全不同的一面。灯光璀璨，霓虹闪烁，每一个角落都有故事。</p>
-<h2 id="夜晚的魅力"><a href="#夜晚的魅力" class="headerlink" title="夜晚的魅力"></a>夜晚的魅力</h2><p>白天喧嚣的城市在夜晚变得格外迷人。高楼大厦的灯光倒映在河面上，形成一幅绚丽的画面。</p>
-<h2 id="夜景拍摄技巧"><a href="#夜景拍摄技巧" class="headerlink" title="夜景拍摄技巧"></a>夜景拍摄技巧</h2><ol>
-<li><strong>使用三脚架</strong> - 长曝光是夜景拍摄的基础</li>
-<li><strong>低 ISO</strong> - 减少噪点，保持画面纯净</li>
-<li><strong>手动对焦</strong> - 自动对焦在暗光下容易失误</li>
-<li><strong>尝试不同快门速度</strong> - 不同的曝光时间会带来不同的效果</li>
-</ol>
-<p>城市的夜，永远有着说不完的故事。</p>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>城市</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo 博客搭建指南</title>
     <url>/archives/getting-started-with-hexo-394f59b63c70/</url>
     <content><![CDATA[<p>最近花了一些时间搭建了这个基于 Hexo 的个人博客，在这里记录一下搭建过程和心得体会。</p>
@@ -73,6 +52,49 @@
       </tags>
   </entry>
   <entry>
+    <title>晨间咖啡时光</title>
+    <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
+    <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
+<h2 id="咖啡与生活"><a href="#咖啡与生活" class="headerlink" title="咖啡与生活"></a>咖啡与生活</h2><p>对我来说，咖啡不仅仅是一种饮品，更是一种生活方式。每天清晨，磨豆、冲泡、品尝，这个过程本身就是一种仪式感。</p>
+<h2 id="手冲咖啡入门"><a href="#手冲咖啡入门" class="headerlink" title="手冲咖啡入门"></a>手冲咖啡入门</h2><p>如果你也想尝试手冲咖啡，这里有几个基本建议：</p>
+<ul>
+<li>选择新鲜烘焙的咖啡豆</li>
+<li>水温控制在 88-92°C</li>
+<li>研磨度要适中，类似粗砂糖</li>
+<li>注水要均匀，画圆圈注入</li>
+</ul>
+<p>享受每一个清晨，从一杯好咖啡开始。</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>城市夜景</title>
+    <url>/diary/gallery-city-night-4155695dd6cb/</url>
+    <content><![CDATA[<p>当夜幕降临，城市展现出了它完全不同的一面。灯光璀璨，霓虹闪烁，每一个角落都有故事。</p>
+<h2 id="夜晚的魅力"><a href="#夜晚的魅力" class="headerlink" title="夜晚的魅力"></a>夜晚的魅力</h2><p>白天喧嚣的城市在夜晚变得格外迷人。高楼大厦的灯光倒映在河面上，形成一幅绚丽的画面。</p>
+<h2 id="夜景拍摄技巧"><a href="#夜景拍摄技巧" class="headerlink" title="夜景拍摄技巧"></a>夜景拍摄技巧</h2><ol>
+<li><strong>使用三脚架</strong> - 长曝光是夜景拍摄的基础</li>
+<li><strong>低 ISO</strong> - 减少噪点，保持画面纯净</li>
+<li><strong>手动对焦</strong> - 自动对焦在暗光下容易失误</li>
+<li><strong>尝试不同快门速度</strong> - 不同的曝光时间会带来不同的效果</li>
+</ol>
+<p>城市的夜，永远有着说不完的故事。</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>城市</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown 写作技巧与实用语法</title>
     <url>/archives/markdown-writing-tips-efeffe7f5671/</url>
     <content><![CDATA[<p>Markdown 是一种轻量级标记语言，让你可以用纯文本格式来编写文档。今天来分享一些实用的 Markdown 技巧。</p>
@@ -120,25 +142,48 @@
       </tags>
   </entry>
   <entry>
-    <title>晨间咖啡时光</title>
-    <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
-    <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
-<h2 id="咖啡与生活"><a href="#咖啡与生活" class="headerlink" title="咖啡与生活"></a>咖啡与生活</h2><p>对我来说，咖啡不仅仅是一种饮品，更是一种生活方式。每天清晨，磨豆、冲泡、品尝，这个过程本身就是一种仪式感。</p>
-<h2 id="手冲咖啡入门"><a href="#手冲咖啡入门" class="headerlink" title="手冲咖啡入门"></a>手冲咖啡入门</h2><p>如果你也想尝试手冲咖啡，这里有几个基本建议：</p>
-<ul>
-<li>选择新鲜烘焙的咖啡豆</li>
-<li>水温控制在 88-92°C</li>
-<li>研磨度要适中，类似粗砂糖</li>
-<li>注水要均匀，画圆圈注入</li>
-</ul>
-<p>享受每一个清晨，从一杯好咖啡开始。</p>
+    <title>春日随想：生活中的小确幸</title>
+    <url>/diary/spring-thoughts-11210cde532f/</url>
+    <content><![CDATA[<p>春天是一个让人心情愉悦的季节。今天想聊聊最近生活中的一些小确幸。</p>
+<h2 id="清晨的阳光"><a href="#清晨的阳光" class="headerlink" title="清晨的阳光"></a>清晨的阳光</h2><p>每天早起，看到窗外的阳光洒进房间，总觉得这一天充满了希望。泡一杯茶，坐在窗边，享受这份宁静。</p>
+<h2 id="阅读的乐趣"><a href="#阅读的乐趣" class="headerlink" title="阅读的乐趣"></a>阅读的乐趣</h2><p>最近在读一本关于设计哲学的书，书中提到”少即是多”的理念。这让我想到了这个博客的主题选择——Frame，它的设计正是这种理念的体现。</p>
+<h2 id="编程的快乐"><a href="#编程的快乐" class="headerlink" title="编程的快乐"></a>编程的快乐</h2><p>作为一个技术爱好者，解决一个棘手的 bug 或者实现一个优雅的功能，那种成就感是无法替代的。就像搭建这个博客的过程，虽然有些折腾，但看到最终的效果，一切都值得。</p>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>生活不只有代码和工作，还有很多美好的瞬间值得记录。这也是我开始写博客的初衷——每天一个新发现，An Apple A Day。</p>
+<blockquote>
+<p>生活中从不缺少美，只是缺少发现美的眼睛。</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>diary</category>
       </categories>
       <tags>
-        <tag>摄影</tag>
         <tag>生活</tag>
+        <tag>随想</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个人博客项目</title>
+    <url>/showreel/showreel-test-project-95dd059ccbe1/</url>
+    <content><![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p>
+<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ul>
+<li><strong>框架</strong>: Hexo</li>
+<li><strong>主题</strong>: Frame（自定义修改）</li>
+<li><strong>部署</strong>: GitHub Pages</li>
+<li><strong>域名</strong>: anappleaday.top</li>
+</ul>
+<h2 id="功能特点"><a href="#功能特点" class="headerlink" title="功能特点"></a>功能特点</h2><ul>
+<li>响应式布局，适配移动端</li>
+<li>支持文章分类与标签管理</li>
+<li>图片画廊展示</li>
+<li>简洁优雅的阅读体验</li>
+</ul>
+]]></content>
+      <categories>
+        <category>showreel</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Web</tag>
       </tags>
   </entry>
   <entry>
@@ -172,51 +217,6 @@
       </tags>
   </entry>
   <entry>
-    <title>个人博客项目</title>
-    <url>/showreel/showreel-test-project-95dd059ccbe1/</url>
-    <content><![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p>
-<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ul>
-<li><strong>框架</strong>: Hexo</li>
-<li><strong>主题</strong>: Frame（自定义修改）</li>
-<li><strong>部署</strong>: GitHub Pages</li>
-<li><strong>域名</strong>: anappleaday.top</li>
-</ul>
-<h2 id="功能特点"><a href="#功能特点" class="headerlink" title="功能特点"></a>功能特点</h2><ul>
-<li>响应式布局，适配移动端</li>
-<li>支持文章分类与标签管理</li>
-<li>图片画廊展示</li>
-<li>简洁优雅的阅读体验</li>
-</ul>
-]]></content>
-      <categories>
-        <category>showreel</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Web</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>春日随想：生活中的小确幸</title>
-    <url>/diary/spring-thoughts-11210cde532f/</url>
-    <content><![CDATA[<p>春天是一个让人心情愉悦的季节。今天想聊聊最近生活中的一些小确幸。</p>
-<h2 id="清晨的阳光"><a href="#清晨的阳光" class="headerlink" title="清晨的阳光"></a>清晨的阳光</h2><p>每天早起，看到窗外的阳光洒进房间，总觉得这一天充满了希望。泡一杯茶，坐在窗边，享受这份宁静。</p>
-<h2 id="阅读的乐趣"><a href="#阅读的乐趣" class="headerlink" title="阅读的乐趣"></a>阅读的乐趣</h2><p>最近在读一本关于设计哲学的书，书中提到”少即是多”的理念。这让我想到了这个博客的主题选择——Frame，它的设计正是这种理念的体现。</p>
-<h2 id="编程的快乐"><a href="#编程的快乐" class="headerlink" title="编程的快乐"></a>编程的快乐</h2><p>作为一个技术爱好者，解决一个棘手的 bug 或者实现一个优雅的功能，那种成就感是无法替代的。就像搭建这个博客的过程，虽然有些折腾，但看到最终的效果，一切都值得。</p>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>生活不只有代码和工作，还有很多美好的瞬间值得记录。这也是我开始写博客的初衷——每天一个新发现，An Apple A Day。</p>
-<blockquote>
-<p>生活中从不缺少美，只是缺少发现美的眼睛。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>随想</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>test</title>
     <url>/diary/test-1cbb5ec29456/</url>
     <content><![CDATA[<figure class="video-embed" data-size="full">
@@ -225,6 +225,11 @@
 </figure>
 
 <p>3333</p>
+<figure class="video-embed" data-size="default">
+  <iframe src="//player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <figcaption>视频说明</figcaption>
+</figure>
+
 <p>22222222</p>
 ]]></content>
       <categories>
@@ -233,11 +238,6 @@
       <tags>
         <tag>城市</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tag/index.html</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>关于</title>
@@ -256,5 +256,10 @@
 <li>博客: <a href="https://anappleaday.top/">anappleaday.top</a></li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tag/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>

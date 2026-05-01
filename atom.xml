@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, L²w</rights>
   <subtitle>每天一个新发现</subtitle>
   <title>An apple aDay</title>
-  <updated>2026-05-01T13:48:59.963Z</updated>
+  <updated>2026-05-01T13:57:05.864Z</updated>
   <entry>
     <author>
       <name>L²w</name>
@@ -18,7 +18,7 @@
     <category term="diary" scheme="https://anappleaday.top/diary/"/>
     <category term="城市" scheme="https://anappleaday.top/tags/%E5%9F%8E%E5%B8%82/"/>
     <content>
-      <![CDATA[<figure class="video-embed" data-size="full">  <iframe src="//player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>  <figcaption>视频说明</figcaption></figure><p>3333</p><p>22222222</p>]]>
+      <![CDATA[<figure class="video-embed" data-size="full">  <iframe src="//player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>  <figcaption>视频说明</figcaption></figure><p>3333</p><figure class="video-embed" data-size="default">  <iframe src="//player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>  <figcaption>视频说明</figcaption></figure><p>22222222</p>]]>
     </content>
     <id>https://anappleaday.top/diary/test-1cbb5ec29456/</id>
     <link href="https://anappleaday.top/diary/test-1cbb5ec29456/"/>
@@ -28,7 +28,7 @@
   <iframe src="//player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1" scro]]>
     </summary>
     <title>test</title>
-    <updated>2026-05-01T13:48:59.963Z</updated>
+    <updated>2026-05-01T13:57:05.864Z</updated>
   </entry>
   <entry>
     <author>
