@@ -22,6 +22,25 @@
       </tags>
   </entry>
   <entry>
+    <title>春日花园</title>
+    <url>/diary/gallery-spring-garden-becd0184d8a9/</url>
+    <content><![CDATA[<p>春天的花园是最美的，各种花朵竞相开放，色彩斑斓。</p>
+<h2 id="花开时节"><a href="#花开时节" class="headerlink" title="花开时节"></a>花开时节</h2><p>每年春天，花园里的花朵总是准时绽放。从早春的梅花到晚春的牡丹，每一种花都有自己独特的美。</p>
+<p>走在花间小径上，微风拂过，花瓣轻轻飘落，仿佛置身于一幅流动的画卷之中。</p>
+<h2 id="拍摄心得"><a href="#拍摄心得" class="headerlink" title="拍摄心得"></a>拍摄心得</h2><p>拍花最重要的是光线。清晨和傍晚的柔和光线最适合拍摄花朵，能够展现出花瓣的细腻质感和通透感。</p>
+<blockquote>
+<p>一花一世界，一叶一菩提。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>自然</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>晨间咖啡时光</title>
     <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
     <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
@@ -76,76 +95,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/archives/hello-world-510ae1fa606d/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>archives</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>春日花园</title>
-    <url>/diary/gallery-spring-garden-becd0184d8a9/</url>
-    <content><![CDATA[<p>春天的花园是最美的，各种花朵竞相开放，色彩斑斓。</p>
-<h2 id="花开时节"><a href="#花开时节" class="headerlink" title="花开时节"></a>花开时节</h2><p>每年春天，花园里的花朵总是准时绽放。从早春的梅花到晚春的牡丹，每一种花都有自己独特的美。</p>
-<p>走在花间小径上，微风拂过，花瓣轻轻飘落，仿佛置身于一幅流动的画卷之中。</p>
-<h2 id="拍摄心得"><a href="#拍摄心得" class="headerlink" title="拍摄心得"></a>拍摄心得</h2><p>拍花最重要的是光线。清晨和傍晚的柔和光线最适合拍摄花朵，能够展现出花瓣的细腻质感和通透感。</p>
-<blockquote>
-<p>一花一世界，一叶一菩提。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>自然</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学公式渲染测试</title>
-    <url>/archives/math-formula-test-77b483761f93/</url>
-    <content><![CDATA[<p>本文用于测试 MathJax 数学公式渲染效果。</p>
-<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E = mc^2$ 是物理学中最著名的公式之一。</p>
-<p>圆的面积公式为 $A = \pi r^2$，其中 $r$ 是半径。</p>
-<h2 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h2><p>欧拉恒等式：</p>
-<p>$$e^{i\pi} + 1 = 0$$</p>
-<p>高斯积分：</p>
-<p>$$\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$$</p>
-<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 3×3 矩阵：</p>
-<p>$$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$</p>
-<p>一个 2×2 矩阵的行列式：</p>
-<p>$$\det \left( \begin{bmatrix} a & b \\ c & d \end{bmatrix} \right) = ad - bc$$</p>
-<h2 id="求和与极限"><a href="#求和与极限" class="headerlink" title="求和与极限"></a>求和与极限</h2><p>自然数求和：</p>
-<p>$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$</p>
-<p>极限定义：</p>
-<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e$$</p>
-<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f'(x) \, dx = f(b) - f(a)$$</p>
-<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}$$</p>
-<p>$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
-]]></content>
-      <categories>
-        <category>archives</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown 写作技巧与实用语法</title>
     <url>/archives/markdown-writing-tips-efeffe7f5671/</url>
     <content><![CDATA[<p>Markdown 是一种轻量级标记语言，让你可以用纯文本格式来编写文档。今天来分享一些实用的 Markdown 技巧。</p>
@@ -193,6 +142,54 @@
       </tags>
   </entry>
   <entry>
+    <title>数学公式渲染测试</title>
+    <url>/archives/math-formula-test-77b483761f93/</url>
+    <content><![CDATA[<p>本文用于测试 MathJax 数学公式渲染效果。</p>
+<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E = mc^2$ 是物理学中最著名的公式之一。</p>
+<p>圆的面积公式为 $A = \pi r^2$，其中 $r$ 是半径。</p>
+<h2 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h2><p>欧拉恒等式：</p>
+<p>$$e^{i\pi} + 1 = 0$$</p>
+<p>高斯积分：</p>
+<p>$$\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$$</p>
+<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 3×3 矩阵：</p>
+<p>$$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$</p>
+<p>一个 2×2 矩阵的行列式：</p>
+<p>$$\det \left( \begin{bmatrix} a & b \\ c & d \end{bmatrix} \right) = ad - bc$$</p>
+<h2 id="求和与极限"><a href="#求和与极限" class="headerlink" title="求和与极限"></a>求和与极限</h2><p>自然数求和：</p>
+<p>$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$</p>
+<p>极限定义：</p>
+<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e$$</p>
+<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f'(x) \, dx = f(b) - f(a)$$</p>
+<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}$$</p>
+<p>$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
+]]></content>
+      <categories>
+        <category>archives</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/diary/test-1cbb5ec29456/</url>
+    <content><![CDATA[<figure class="video-embed" data-size="full">
+  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115452210582693&bvid=BV1dUykBREzQ&cid=35266300542&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <figcaption>视频说明</figcaption>
+</figure>
+
+
+<p>22222222</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>城市</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>个人博客项目</title>
     <url>/showreel/showreel-test-project-95dd059ccbe1/</url>
     <content><![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p>
@@ -235,17 +232,6 @@
       <tags>
         <tag>生活</tag>
         <tag>随想</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/diary/test-a880fbb8132e/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
       </tags>
   </entry>
   <entry>

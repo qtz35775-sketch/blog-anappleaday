@@ -10,18 +10,25 @@
   <rights>All rights reserved 2026, L²w</rights>
   <subtitle>每天一个新发现</subtitle>
   <title>An apple aDay</title>
-  <updated>2026-05-01T08:16:35.530Z</updated>
+  <updated>2026-05-01T08:41:29.819Z</updated>
   <entry>
     <author>
       <name>L²w</name>
     </author>
     <category term="diary" scheme="https://anappleaday.top/diary/"/>
-    <category term="摄影" scheme="https://anappleaday.top/tags/%E6%91%84%E5%BD%B1/"/>
-    <id>https://anappleaday.top/diary/test-a880fbb8132e/</id>
-    <link href="https://anappleaday.top/diary/test-a880fbb8132e/"/>
-    <published>2026-05-01T07:57:38.000Z</published>
+    <category term="城市" scheme="https://anappleaday.top/tags/%E5%9F%8E%E5%B8%82/"/>
+    <content>
+      <![CDATA[<figure class="video-embed" data-size="full">  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115452210582693&bvid=BV1dUykBREzQ&cid=35266300542&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>  <figcaption>视频说明</figcaption></figure><p>22222222</p>]]>
+    </content>
+    <id>https://anappleaday.top/diary/test-1cbb5ec29456/</id>
+    <link href="https://anappleaday.top/diary/test-1cbb5ec29456/"/>
+    <published>2026-05-01T08:39:34.000Z</published>
+    <summary>
+      <![CDATA[<figure class="video-embed" data-size="full">
+  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115452210582693&bvid=BV1dU]]>
+    </summary>
     <title>test</title>
-    <updated>2026-05-01T08:16:35.530Z</updated>
+    <updated>2026-05-01T08:41:29.819Z</updated>
   </entry>
   <entry>
     <author>
@@ -164,23 +171,6 @@
 <h2 id="为什么选择-Hexo"><a href="#为什么选择-Hexo" class="headerlink" title="为什么选择 Hexo"></a>为什么选]]>
     </summary>
     <title>Hexo 博客搭建指南</title>
-    <updated>2026-04-30T14:39:03.007Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>L²w</name>
-    </author>
-    <category term="archives" scheme="https://anappleaday.top/archives/"/>
-    <content>
-      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]>
-    </content>
-    <id>https://anappleaday.top/archives/hello-world-510ae1fa606d/</id>
-    <link href="https://anappleaday.top/archives/hello-world-510ae1fa606d/"/>
-    <published>2026-04-28T05:47:42.000Z</published>
-    <summary>
-      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
-    </summary>
-    <title>Hello World</title>
     <updated>2026-04-30T14:39:03.007Z</updated>
   </entry>
   <entry>
