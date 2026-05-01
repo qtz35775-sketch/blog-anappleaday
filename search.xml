@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>晨间咖啡时光</title>
-    <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
-    <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
-<h2 id="咖啡与生活"><a href="#咖啡与生活" class="headerlink" title="咖啡与生活"></a>咖啡与生活</h2><p>对我来说，咖啡不仅仅是一种饮品，更是一种生活方式。每天清晨，磨豆、冲泡、品尝，这个过程本身就是一种仪式感。</p>
-<h2 id="手冲咖啡入门"><a href="#手冲咖啡入门" class="headerlink" title="手冲咖啡入门"></a>手冲咖啡入门</h2><p>如果你也想尝试手冲咖啡，这里有几个基本建议：</p>
-<ul>
-<li>选择新鲜烘焙的咖啡豆</li>
-<li>水温控制在 88-92°C</li>
-<li>研磨度要适中，类似粗砂糖</li>
-<li>注水要均匀，画圆圈注入</li>
-</ul>
-<p>享受每一个清晨，从一杯好咖啡开始。</p>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>城市夜景</title>
     <url>/diary/gallery-city-night-4155695dd6cb/</url>
     <content><![CDATA[<p>当夜幕降临，城市展现出了它完全不同的一面。灯光璀璨，霓虹闪烁，每一个角落都有故事。</p>
@@ -76,6 +54,28 @@
       </tags>
   </entry>
   <entry>
+    <title>晨间咖啡时光</title>
+    <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
+    <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
+<h2 id="咖啡与生活"><a href="#咖啡与生活" class="headerlink" title="咖啡与生活"></a>咖啡与生活</h2><p>对我来说，咖啡不仅仅是一种饮品，更是一种生活方式。每天清晨，磨豆、冲泡、品尝，这个过程本身就是一种仪式感。</p>
+<h2 id="手冲咖啡入门"><a href="#手冲咖啡入门" class="headerlink" title="手冲咖啡入门"></a>手冲咖啡入门</h2><p>如果你也想尝试手冲咖啡，这里有几个基本建议：</p>
+<ul>
+<li>选择新鲜烘焙的咖啡豆</li>
+<li>水温控制在 88-92°C</li>
+<li>研磨度要适中，类似粗砂糖</li>
+<li>注水要均匀，画圆圈注入</li>
+</ul>
+<p>享受每一个清晨，从一杯好咖啡开始。</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>春日花园</title>
     <url>/diary/gallery-spring-garden-becd0184d8a9/</url>
     <content><![CDATA[<p>春天的花园是最美的，各种花朵竞相开放，色彩斑斓。</p>
@@ -95,28 +95,33 @@
       </tags>
   </entry>
   <entry>
-    <title>个人博客项目</title>
-    <url>/showreel/showreel-test-project-95dd059ccbe1/</url>
-    <content><![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p>
-<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ul>
-<li><strong>框架</strong>: Hexo</li>
-<li><strong>主题</strong>: Frame（自定义修改）</li>
-<li><strong>部署</strong>: GitHub Pages</li>
-<li><strong>域名</strong>: anappleaday.top</li>
-</ul>
-<h2 id="功能特点"><a href="#功能特点" class="headerlink" title="功能特点"></a>功能特点</h2><ul>
-<li>响应式布局，适配移动端</li>
-<li>支持文章分类与标签管理</li>
-<li>图片画廊展示</li>
-<li>简洁优雅的阅读体验</li>
-</ul>
+    <title>数学公式渲染测试</title>
+    <url>/archives/math-formula-test-77b483761f93/</url>
+    <content><![CDATA[<p>本文用于测试 MathJax 数学公式渲染效果。</p>
+<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E = mc^2$ 是物理学中最著名的公式之一。</p>
+<p>圆的面积公式为 $A = \pi r^2$，其中 $r$ 是半径。</p>
+<h2 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h2><p>欧拉恒等式：</p>
+<p>$$e^{i\pi} + 1 = 0$$</p>
+<p>高斯积分：</p>
+<p>$$\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$$</p>
+<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 3×3 矩阵：</p>
+<p>$$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$</p>
+<p>一个 2×2 矩阵的行列式：</p>
+<p>$$\det \left( \begin{bmatrix} a & b \\ c & d \end{bmatrix} \right) = ad - bc$$</p>
+<h2 id="求和与极限"><a href="#求和与极限" class="headerlink" title="求和与极限"></a>求和与极限</h2><p>自然数求和：</p>
+<p>$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$</p>
+<p>极限定义：</p>
+<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e$$</p>
+<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f'(x) \, dx = f(b) - f(a)$$</p>
+<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}$$</p>
+<p>$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
 ]]></content>
       <categories>
-        <category>showreel</category>
+        <category>archives</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>Web</tag>
+        <tag>教程</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -167,33 +172,48 @@
       </tags>
   </entry>
   <entry>
-    <title>数学公式渲染测试</title>
-    <url>/archives/math-formula-test-77b483761f93/</url>
-    <content><![CDATA[<p>本文用于测试 MathJax 数学公式渲染效果。</p>
-<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p>质能方程 $E = mc^2$ 是物理学中最著名的公式之一。</p>
-<p>圆的面积公式为 $A = \pi r^2$，其中 $r$ 是半径。</p>
-<h2 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h2><p>欧拉恒等式：</p>
-<p>$$e^{i\pi} + 1 = 0$$</p>
-<p>高斯积分：</p>
-<p>$$\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$$</p>
-<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><p>一个 3×3 矩阵：</p>
-<p>$$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$</p>
-<p>一个 2×2 矩阵的行列式：</p>
-<p>$$\det \left( \begin{bmatrix} a & b \\ c & d \end{bmatrix} \right) = ad - bc$$</p>
-<h2 id="求和与极限"><a href="#求和与极限" class="headerlink" title="求和与极限"></a>求和与极限</h2><p>自然数求和：</p>
-<p>$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$</p>
-<p>极限定义：</p>
-<p>$$\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e$$</p>
-<h2 id="微积分基本定理"><a href="#微积分基本定理" class="headerlink" title="微积分基本定理"></a>微积分基本定理</h2><p>$$\int_a^b f'(x) \, dx = f(b) - f(a)$$</p>
-<h2 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h2><p>$$\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}$$</p>
-<p>$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$</p>
+    <title>个人博客项目</title>
+    <url>/showreel/showreel-test-project-95dd059ccbe1/</url>
+    <content><![CDATA[<p>基于 Hexo 框架搭建的个人博客，使用 Frame 主题，支持文章分类、标签云、图片画廊等功能。</p>
+<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ul>
+<li><strong>框架</strong>: Hexo</li>
+<li><strong>主题</strong>: Frame（自定义修改）</li>
+<li><strong>部署</strong>: GitHub Pages</li>
+<li><strong>域名</strong>: anappleaday.top</li>
+</ul>
+<h2 id="功能特点"><a href="#功能特点" class="headerlink" title="功能特点"></a>功能特点</h2><ul>
+<li>响应式布局，适配移动端</li>
+<li>支持文章分类与标签管理</li>
+<li>图片画廊展示</li>
+<li>简洁优雅的阅读体验</li>
+</ul>
 ]]></content>
       <categories>
-        <category>archives</category>
+        <category>showreel</category>
       </categories>
       <tags>
-        <tag>教程</tag>
-        <tag>数学</tag>
+        <tag>Hexo</tag>
+        <tag>Web</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>春日随想：生活中的小确幸</title>
+    <url>/diary/spring-thoughts-11210cde532f/</url>
+    <content><![CDATA[<p>春天是一个让人心情愉悦的季节。今天想聊聊最近生活中的一些小确幸。</p>
+<h2 id="清晨的阳光"><a href="#清晨的阳光" class="headerlink" title="清晨的阳光"></a>清晨的阳光</h2><p>每天早起，看到窗外的阳光洒进房间，总觉得这一天充满了希望。泡一杯茶，坐在窗边，享受这份宁静。</p>
+<h2 id="阅读的乐趣"><a href="#阅读的乐趣" class="headerlink" title="阅读的乐趣"></a>阅读的乐趣</h2><p>最近在读一本关于设计哲学的书，书中提到”少即是多”的理念。这让我想到了这个博客的主题选择——Frame，它的设计正是这种理念的体现。</p>
+<h2 id="编程的快乐"><a href="#编程的快乐" class="headerlink" title="编程的快乐"></a>编程的快乐</h2><p>作为一个技术爱好者，解决一个棘手的 bug 或者实现一个优雅的功能，那种成就感是无法替代的。就像搭建这个博客的过程，虽然有些折腾，但看到最终的效果，一切都值得。</p>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>生活不只有代码和工作，还有很多美好的瞬间值得记录。这也是我开始写博客的初衷——每天一个新发现，An Apple A Day。</p>
+<blockquote>
+<p>生活中从不缺少美，只是缺少发现美的眼睛。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>随想</tag>
       </tags>
   </entry>
   <entry>
@@ -218,24 +238,9 @@
       </tags>
   </entry>
   <entry>
-    <title>春日随想：生活中的小确幸</title>
-    <url>/diary/spring-thoughts-11210cde532f/</url>
-    <content><![CDATA[<p>春天是一个让人心情愉悦的季节。今天想聊聊最近生活中的一些小确幸。</p>
-<h2 id="清晨的阳光"><a href="#清晨的阳光" class="headerlink" title="清晨的阳光"></a>清晨的阳光</h2><p>每天早起，看到窗外的阳光洒进房间，总觉得这一天充满了希望。泡一杯茶，坐在窗边，享受这份宁静。</p>
-<h2 id="阅读的乐趣"><a href="#阅读的乐趣" class="headerlink" title="阅读的乐趣"></a>阅读的乐趣</h2><p>最近在读一本关于设计哲学的书，书中提到”少即是多”的理念。这让我想到了这个博客的主题选择——Frame，它的设计正是这种理念的体现。</p>
-<h2 id="编程的快乐"><a href="#编程的快乐" class="headerlink" title="编程的快乐"></a>编程的快乐</h2><p>作为一个技术爱好者，解决一个棘手的 bug 或者实现一个优雅的功能，那种成就感是无法替代的。就像搭建这个博客的过程，虽然有些折腾，但看到最终的效果，一切都值得。</p>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>生活不只有代码和工作，还有很多美好的瞬间值得记录。这也是我开始写博客的初衷——每天一个新发现，An Apple A Day。</p>
-<blockquote>
-<p>生活中从不缺少美，只是缺少发现美的眼睛。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>随想</tag>
-      </tags>
+    <title>标签</title>
+    <url>/tag/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>关于</title>
@@ -254,10 +259,5 @@
 <li>博客: <a href="https://anappleaday.top/">anappleaday.top</a></li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tag/index.html</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
