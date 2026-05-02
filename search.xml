@@ -3,7 +3,7 @@
   <entry>
     <title>全功能测试 - 技术文章</title>
     <url>/archives/archives-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-1b81af13c4bd/</url>
-    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文属于 <strong>archieves</strong>（技术文章）分类，测试 Frame 主题中代码块、数学公式、Pullquote、定义列表等高级排版功能。本文已设置 <code>hide_comment: true</code>，评论区应该<strong>不显示</strong>。</p>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文属于 <strong>archives</strong>（技术文章）分类，测试 Frame 主题中代码块、数学公式、Pullquote、定义列表等高级排版功能。本文已设置 <code>hide_comment: true</code>，评论区应该<strong>不显示</strong>。</p>
 <hr>
 <h2 id="JavaScript-代码块"><a href="#JavaScript-代码块" class="headerlink" title="JavaScript 代码块"></a>JavaScript 代码块</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 快速排序算法</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">quickSort</span>(<span class="params">arr</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (arr.<span class="property">length</span> &lt;= <span class="number">1</span>) <span class="keyword">return</span> arr;</span><br><span class="line">  <span class="keyword">const</span> pivot = arr[<span class="title class_">Math</span>.<span class="title function_">floor</span>(arr.<span class="property">length</span> / <span class="number">2</span>)];</span><br><span class="line">  <span class="keyword">const</span> left = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x &lt; pivot);</span><br><span class="line">  <span class="keyword">const</span> middle = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x === pivot);</span><br><span class="line">  <span class="keyword">const</span> right = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x &gt; pivot);</span><br><span class="line">  <span class="keyword">return</span> [...<span class="title function_">quickSort</span>(left), ...middle, ...<span class="title function_">quickSort</span>(right)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> testArray = [<span class="number">3</span>, <span class="number">7</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">9</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">8</span>, <span class="number">2</span>, <span class="number">6</span>];</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;排序结果:&#x27;</span>, <span class="title function_">quickSort</span>(testArray));</span><br><span class="line"><span class="comment">// 输出: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</span></span><br></pre></td></tr></table></figure>
 
@@ -99,7 +99,7 @@ scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 A
 </ul>
 <hr>
 <blockquote>
-<p>本文覆盖了 <strong>archieves</strong> 类别的核心技术排版功能。最后请阅读 <code>showreel</code> 分类下的作品展示文章。</p>
+<p>本文覆盖了 <strong>archives</strong> 类别的核心技术排版功能。最后请阅读 <code>showreel</code> 分类下的作品展示文章。</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -214,27 +214,6 @@ scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 A
       </tags>
   </entry>
   <entry>
-    <title>城市夜景</title>
-    <url>/diary/gallery-city-night-4155695dd6cb/</url>
-    <content><![CDATA[<p>当夜幕降临，城市展现出了它完全不同的一面。灯光璀璨，霓虹闪烁，每一个角落都有故事。</p>
-<h2 id="夜晚的魅力"><a href="#夜晚的魅力" class="headerlink" title="夜晚的魅力"></a>夜晚的魅力</h2><p>白天喧嚣的城市在夜晚变得格外迷人。高楼大厦的灯光倒映在河面上，形成一幅绚丽的画面。</p>
-<h2 id="夜景拍摄技巧"><a href="#夜景拍摄技巧" class="headerlink" title="夜景拍摄技巧"></a>夜景拍摄技巧</h2><ol>
-<li><strong>使用三脚架</strong> - 长曝光是夜景拍摄的基础</li>
-<li><strong>低 ISO</strong> - 减少噪点，保持画面纯净</li>
-<li><strong>手动对焦</strong> - 自动对焦在暗光下容易失误</li>
-<li><strong>尝试不同快门速度</strong> - 不同的曝光时间会带来不同的效果</li>
-</ol>
-<p>城市的夜，永远有着说不完的故事。</p>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>城市</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>晨间咖啡时光</title>
     <url>/diary/gallery-morning-coffee-f2ffe79fbcd5/</url>
     <content><![CDATA[<p>一杯咖啡，一段安静的时光，这是每天最享受的时刻。</p>
@@ -308,50 +287,24 @@ scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 A
       </tags>
   </entry>
   <entry>
-    <title>Markdown 写作技巧与实用语法</title>
-    <url>/archives/markdown-writing-tips-efeffe7f5671/</url>
-    <content><![CDATA[<p>Markdown 是一种轻量级标记语言，让你可以用纯文本格式来编写文档。今天来分享一些实用的 Markdown 技巧。</p>
-<h2 id="基础语法回顾"><a href="#基础语法回顾" class="headerlink" title="基础语法回顾"></a>基础语法回顾</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>使用 <code>#</code> 号来创建标题，一个 <code>#</code> 是一级标题，两个 <code>##</code> 是二级标题，以此类推。</p>
-<h3 id="文本样式"><a href="#文本样式" class="headerlink" title="文本样式"></a>文本样式</h3><ul>
-<li><strong>粗体</strong> 使用 <code>**文本**</code></li>
-<li><em>斜体</em> 使用 <code>*文本*</code></li>
-<li><del>删除线</del> 使用 <code>~~文本~~</code></li>
-</ul>
-<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>无序列表使用 <code>-</code> 或 <code>*</code>，有序列表使用数字加 <code>.</code>。</p>
-<h2 id="进阶技巧"><a href="#进阶技巧" class="headerlink" title="进阶技巧"></a>进阶技巧</h2><h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>使用三个反引号可以创建代码块，并指定语言实现语法高亮：</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">hello</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
-<thead>
-<tr>
-<th>功能</th>
-<th>语法</th>
-<th>效果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>粗体</td>
-<td><code>**文本**</code></td>
-<td><strong>文本</strong></td>
-</tr>
-<tr>
-<td>链接</td>
-<td><code>[文本](URL)</code></td>
-<td><a href="#">文本</a></td>
-</tr>
-</tbody></table>
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><blockquote>
-<p>好的写作工具能让你专注于内容本身。<br>—— 某位智者</p>
-</blockquote>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>掌握 Markdown 的基础语法后，你就能高效地撰写博客文章了。关键是多练习，让语法成为你的肌肉记忆。</p>
+    <title>城市夜景</title>
+    <url>/diary/gallery-city-night-4155695dd6cb/</url>
+    <content><![CDATA[<p>当夜幕降临，城市展现出了它完全不同的一面。灯光璀璨，霓虹闪烁，每一个角落都有故事。</p>
+<h2 id="夜晚的魅力"><a href="#夜晚的魅力" class="headerlink" title="夜晚的魅力"></a>夜晚的魅力</h2><p>白天喧嚣的城市在夜晚变得格外迷人。高楼大厦的灯光倒映在河面上，形成一幅绚丽的画面。</p>
+<h2 id="夜景拍摄技巧"><a href="#夜景拍摄技巧" class="headerlink" title="夜景拍摄技巧"></a>夜景拍摄技巧</h2><ol>
+<li><strong>使用三脚架</strong> - 长曝光是夜景拍摄的基础</li>
+<li><strong>低 ISO</strong> - 减少噪点，保持画面纯净</li>
+<li><strong>手动对焦</strong> - 自动对焦在暗光下容易失误</li>
+<li><strong>尝试不同快门速度</strong> - 不同的曝光时间会带来不同的效果</li>
+</ol>
+<p>城市的夜，永远有着说不完的故事。</p>
 ]]></content>
       <categories>
-        <category>archives</category>
+        <category>diary</category>
       </categories>
       <tags>
-        <tag>教程</tag>
-        <tag>Markdown</tag>
-        <tag>写作</tag>
+        <tag>摄影</tag>
+        <tag>城市</tag>
       </tags>
   </entry>
   <entry>
@@ -382,69 +335,6 @@ scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 A
       <tags>
         <tag>教程</tag>
         <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>全功能测试 - 作品展示</title>
-    <url>/showreel/showreel-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA-4b887d773ca5/</url>
-    <content><![CDATA[<h2 id="作品简介"><a href="#作品简介" class="headerlink" title="作品简介"></a>作品简介</h2><p>这篇文章属于 <strong>showreel</strong> 分类，用于测试 Frame 主题对作品集类文章的特殊渲染效果。</p>
-<blockquote>
-<p><strong>重要提示</strong>：Frame 主题对 <code>showreel</code> 分类有特殊处理——在单篇文章页面会<strong>隐藏 <code>featured_image</code></strong>（即便设置了也不会显示），但在分类页面（gallery 视图）中会照常展示。这是 Frame 主题的设计特性，让作品页面更加简洁。</p>
-</blockquote>
-<hr>
-<h2 id="标题层级测试"><a href="#标题层级测试" class="headerlink" title="标题层级测试"></a>标题层级测试</h2><h3 id="关于这个作品"><a href="#关于这个作品" class="headerlink" title="关于这个作品"></a>关于这个作品</h3><p>这是一篇测试文章，用于验证：</p>
-<ol>
-<li><strong>文字格式</strong>：<em><strong>粗斜体</strong></em> 效果正常</li>
-<li><del>删除内容</del>：删除线渲染正确</li>
-<li><code>行内代码</code>：在正文中的显示效果</li>
-<li>作品集布局：简洁干净</li>
-</ol>
-<hr>
-<h2 id="图片展示"><a href="#图片展示" class="headerlink" title="图片展示"></a>图片展示</h2><p>作品截图（宽度 100%）：</p>
-<div style="text-align:center">
-<img src="/images/test-image.jpg" alt="作品截图" style="width:100%">
-</div>
-
-<p>缩小到 60% 宽度查看：</p>
-<div style="text-align:center">
-<img src="/images/test-image.jpg" alt="作品截图 (60%)" style="width:60%">
-</div>
-
-<hr>
-<h2 id="视频演示"><a href="#视频演示" class="headerlink" title="视频演示"></a>视频演示</h2><div class="video-container">
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</div>
-
-<hr>
-<h2 id="功能清单"><a href="#功能清单" class="headerlink" title="功能清单"></a>功能清单</h2><p>无序列表：</p>
-<ul>
-<li>响应式设计（支持桌面端和移动端）</li>
-<li>暗色 &#x2F; 亮色 &#x2F; Classic 三种色彩模式</li>
-<li>本地搜索功能</li>
-<li>Valine &#x2F; Disqus 双评论系统</li>
-<li>WebGL 着色器主页动画</li>
-<li>代码语法高亮（17 种主题）</li>
-</ul>
-<hr>
-<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ol>
-<li>框架：Hexo</li>
-<li>主题：Frame</li>
-<li>部署：GitHub Pages</li>
-<li>语言：Markdown + EJS + Stylus</li>
-</ol>
-<hr>
-<blockquote>
-<p>Frame 主题是一个极简而功能丰富的 Hexo 主题，适合个人博客、技术文章和作品展示。三篇测试文章已覆盖其<strong>全部</strong>核心功能。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>showreel</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-        <tag>Frame主题</tag>
-        <tag>作品</tag>
-        <tag>展示</tag>
       </tags>
   </entry>
   <entry>
@@ -519,6 +409,69 @@ scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 A
       </tags>
   </entry>
   <entry>
+    <title>全功能测试 - 作品展示</title>
+    <url>/showreel/showreel-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA-4b887d773ca5/</url>
+    <content><![CDATA[<h2 id="作品简介"><a href="#作品简介" class="headerlink" title="作品简介"></a>作品简介</h2><p>这篇文章属于 <strong>showreel</strong> 分类，用于测试 Frame 主题对作品集类文章的特殊渲染效果。</p>
+<blockquote>
+<p><strong>重要提示</strong>：Frame 主题对 <code>showreel</code> 分类有特殊处理——在单篇文章页面会<strong>隐藏 <code>featured_image</code></strong>（即便设置了也不会显示），但在分类页面（gallery 视图）中会照常展示。这是 Frame 主题的设计特性，让作品页面更加简洁。</p>
+</blockquote>
+<hr>
+<h2 id="标题层级测试"><a href="#标题层级测试" class="headerlink" title="标题层级测试"></a>标题层级测试</h2><h3 id="关于这个作品"><a href="#关于这个作品" class="headerlink" title="关于这个作品"></a>关于这个作品</h3><p>这是一篇测试文章，用于验证：</p>
+<ol>
+<li><strong>文字格式</strong>：<em><strong>粗斜体</strong></em> 效果正常</li>
+<li><del>删除内容</del>：删除线渲染正确</li>
+<li><code>行内代码</code>：在正文中的显示效果</li>
+<li>作品集布局：简洁干净</li>
+</ol>
+<hr>
+<h2 id="图片展示"><a href="#图片展示" class="headerlink" title="图片展示"></a>图片展示</h2><p>作品截图（宽度 100%）：</p>
+<div style="text-align:center">
+<img src="/images/test-image.jpg" alt="作品截图" style="width:100%">
+</div>
+
+<p>缩小到 60% 宽度查看：</p>
+<div style="text-align:center">
+<img src="/images/test-image.jpg" alt="作品截图 (60%)" style="width:60%">
+</div>
+
+<hr>
+<h2 id="视频演示"><a href="#视频演示" class="headerlink" title="视频演示"></a>视频演示</h2><div class="video-container">
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+<hr>
+<h2 id="功能清单"><a href="#功能清单" class="headerlink" title="功能清单"></a>功能清单</h2><p>无序列表：</p>
+<ul>
+<li>响应式设计（支持桌面端和移动端）</li>
+<li>暗色 &#x2F; 亮色 &#x2F; Classic 三种色彩模式</li>
+<li>本地搜索功能</li>
+<li>Valine &#x2F; Disqus 双评论系统</li>
+<li>WebGL 着色器主页动画</li>
+<li>代码语法高亮（17 种主题）</li>
+</ul>
+<hr>
+<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ol>
+<li>框架：Hexo</li>
+<li>主题：Frame</li>
+<li>部署：GitHub Pages</li>
+<li>语言：Markdown + EJS + Stylus</li>
+</ol>
+<hr>
+<blockquote>
+<p>Frame 主题是一个极简而功能丰富的 Hexo 主题，适合个人博客、技术文章和作品展示。三篇测试文章已覆盖其<strong>全部</strong>核心功能。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>showreel</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+        <tag>Frame主题</tag>
+        <tag>作品</tag>
+        <tag>展示</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>春日随想：生活中的小确幸</title>
     <url>/diary/spring-thoughts-11210cde532f/</url>
     <content><![CDATA[<p>春天是一个让人心情愉悦的季节。今天想聊聊最近生活中的一些小确幸。</p>
@@ -539,9 +492,51 @@ scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 A
       </tags>
   </entry>
   <entry>
-    <title>标签</title>
-    <url>/tag/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>Markdown 写作技巧与实用语法</title>
+    <url>/archives/markdown-writing-tips-efeffe7f5671/</url>
+    <content><![CDATA[<p>Markdown 是一种轻量级标记语言，让你可以用纯文本格式来编写文档。今天来分享一些实用的 Markdown 技巧。</p>
+<h2 id="基础语法回顾"><a href="#基础语法回顾" class="headerlink" title="基础语法回顾"></a>基础语法回顾</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>使用 <code>#</code> 号来创建标题，一个 <code>#</code> 是一级标题，两个 <code>##</code> 是二级标题，以此类推。</p>
+<h3 id="文本样式"><a href="#文本样式" class="headerlink" title="文本样式"></a>文本样式</h3><ul>
+<li><strong>粗体</strong> 使用 <code>**文本**</code></li>
+<li><em>斜体</em> 使用 <code>*文本*</code></li>
+<li><del>删除线</del> 使用 <code>~~文本~~</code></li>
+</ul>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>无序列表使用 <code>-</code> 或 <code>*</code>，有序列表使用数字加 <code>.</code>。</p>
+<h2 id="进阶技巧"><a href="#进阶技巧" class="headerlink" title="进阶技巧"></a>进阶技巧</h2><h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>使用三个反引号可以创建代码块，并指定语言实现语法高亮：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">hello</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>粗体</td>
+<td><code>**文本**</code></td>
+<td><strong>文本</strong></td>
+</tr>
+<tr>
+<td>链接</td>
+<td><code>[文本](URL)</code></td>
+<td><a href="#">文本</a></td>
+</tr>
+</tbody></table>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><blockquote>
+<p>好的写作工具能让你专注于内容本身。<br>—— 某位智者</p>
+</blockquote>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>掌握 Markdown 的基础语法后，你就能高效地撰写博客文章了。关键是多练习，让语法成为你的肌肉记忆。</p>
+]]></content>
+      <categories>
+        <category>archives</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Markdown</tag>
+        <tag>写作</tag>
+      </tags>
   </entry>
   <entry>
     <title>关于</title>
@@ -560,5 +555,10 @@ scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 A
 <li>博客: <a href="https://anappleaday.top/">anappleaday.top</a></li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tag/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
