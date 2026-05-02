@@ -16,10 +16,10 @@
       <name>L²w</name>
     </author>
     <category term="showreel" scheme="https://anappleaday.top/showreel/"/>
-    <category term="作品" scheme="https://anappleaday.top/tags/%E4%BD%9C%E5%93%81/"/>
-    <category term="展示" scheme="https://anappleaday.top/tags/%E5%B1%95%E7%A4%BA/"/>
     <category term="测试" scheme="https://anappleaday.top/tags/%E6%B5%8B%E8%AF%95/"/>
     <category term="Frame主题" scheme="https://anappleaday.top/tags/Frame%E4%B8%BB%E9%A2%98/"/>
+    <category term="作品" scheme="https://anappleaday.top/tags/%E4%BD%9C%E5%93%81/"/>
+    <category term="展示" scheme="https://anappleaday.top/tags/%E5%B1%95%E7%A4%BA/"/>
     <content>
       <![CDATA[<h2 id="作品简介"><a href="#作品简介" class="headerlink" title="作品简介"></a>作品简介</h2><p>这篇文章属于 <strong>showreel</strong> 分类，用于测试 Frame 主题对作品集类文章的特殊渲染效果。</p><blockquote><p><strong>重要提示</strong>：Frame 主题对 <code>showreel</code> 分类有特殊处理——在单篇文章页面会<strong>隐藏 <code>featured_image</code></strong>（即便设置了也不会显示），但在分类页面（gallery 视图）中会照常展示。这是 Frame 主题的设计特性，让作品页面更加简洁。</p></blockquote><hr><h2 id="标题层级测试"><a href="#标题层级测试" class="headerlink" title="标题层级测试"></a>标题层级测试</h2><h3 id="关于这个作品"><a href="#关于这个作品" class="headerlink" title="关于这个作品"></a>关于这个作品</h3><p>这是一篇测试文章，用于验证：</p><ol><li><strong>文字格式</strong>：<em><strong>粗斜体</strong></em> 效果正常</li><li><del>删除内容</del>：删除线渲染正确</li><li><code>行内代码</code>：在正文中的显示效果</li><li>作品集布局：简洁干净</li></ol><hr><h2 id="图片展示"><a href="#图片展示" class="headerlink" title="图片展示"></a>图片展示</h2><p>作品截图（宽度 100%）：</p><div style="text-align:center"><img src="/images/test-image.jpg" alt="作品截图" style="width:100%"></div><p>缩小到 60% 宽度查看：</p><div style="text-align:center"><img src="/images/test-image.jpg" alt="作品截图 (60%)" style="width:60%"></div><hr><h2 id="视频演示"><a href="#视频演示" class="headerlink" title="视频演示"></a>视频演示</h2><div class="video-container"><iframe src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div><hr><h2 id="功能清单"><a href="#功能清单" class="headerlink" title="功能清单"></a>功能清单</h2><p>无序列表：</p><ul><li>响应式设计（支持桌面端和移动端）</li><li>暗色 &#x2F; 亮色 &#x2F; Classic 三种色彩模式</li><li>本地搜索功能</li><li>Valine &#x2F; Disqus 双评论系统</li><li>WebGL 着色器主页动画</li><li>代码语法高亮（17 种主题）</li></ul><hr><h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ol><li>框架：Hexo</li><li>主题：Frame</li><li>部署：GitHub Pages</li><li>语言：Markdown + EJS + Stylus</li></ol><hr><blockquote><p>Frame 主题是一个极简而功能丰富的 Hexo 主题，适合个人博客、技术文章和作品展示。三篇测试文章已覆盖其<strong>全部</strong>核心功能。</p></blockquote>]]>
     </content>
@@ -51,17 +51,17 @@
       <![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文属于 <strong>archives</strong>（技术文章）分类，测试 Frame 主题中代码块、数学公式、Pullquote、]]>
     </summary>
     <title>全功能测试 - 技术文章</title>
-    <updated>2026-05-02T16:38:55.991Z</updated>
+    <updated>2026-05-02T17:22:32.029Z</updated>
   </entry>
   <entry>
     <author>
       <name>L²w</name>
     </author>
     <category term="diary" scheme="https://anappleaday.top/diary/"/>
-    <category term="测试" scheme="https://anappleaday.top/tags/%E6%B5%8B%E8%AF%95/"/>
-    <category term="Frame主题" scheme="https://anappleaday.top/tags/Frame%E4%B8%BB%E9%A2%98/"/>
     <category term="生活" scheme="https://anappleaday.top/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="测试" scheme="https://anappleaday.top/tags/%E6%B5%8B%E8%AF%95/"/>
     <category term="全功能" scheme="https://anappleaday.top/tags/%E5%85%A8%E5%8A%9F%E8%83%BD/"/>
+    <category term="Frame主题" scheme="https://anappleaday.top/tags/Frame%E4%B8%BB%E9%A2%98/"/>
     <content>
       <![CDATA[<h2 id="这是一个二级标题"><a href="#这是一个二级标题" class="headerlink" title="这是一个二级标题"></a>这是一个二级标题</h2><p>欢迎来到 Frame 主题全功能测试。这篇文章属于 <strong>diary</strong> 分类，主要测试生活记录类文章的渲染效果。</p><h3 id="三级标题：文字格式测试"><a href="#三级标题：文字格式测试" class="headerlink" title="三级标题：文字格式测试"></a>三级标题：文字格式测试</h3><p><strong>这是加粗文字</strong>，<em>这是斜体文字</em>，<em><strong>这是加粗斜体文字</strong></em>。<del>这是删除线文字</del>。</p><p>这是一段包含 <code>行内代码</code> 的正文，用于测试 Frame 主题的 <code>inline code</code> 样式。</p><h3 id="四级标题：图片测试"><a href="#四级标题：图片测试" class="headerlink" title="四级标题：图片测试"></a>四级标题：图片测试</h3><p>下面是本地图片，使用百分比宽度控制：</p><div style="text-align:center"><img src="/images/test-image.jpg" alt="本地测试图片" style="width:100%"></div><h3 id="视频测试"><a href="#视频测试" class="headerlink" title="视频测试"></a>视频测试</h3><p>Bilibili 视频嵌入（16:9 画幅）：</p><div class="video-container"><iframe src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div><blockquote><p>这是一段引用文字。Frame 主题的引用块有左侧彩色边框，适合展示名言或摘录。引用块内还可以包含<strong>其他格式</strong>。</p><p>—— 来源说明</p></blockquote><h3 id="列表测试"><a href="#列表测试" class="headerlink" title="列表测试"></a>列表测试</h3><p>有序列表：</p><ol><li>第一项</li><li>第二项<ol><li>嵌套的第一子项</li><li>嵌套的第二子项</li></ol></li><li>第三项</li></ol><p>无序列表：</p><ul><li>项目 A</li><li>项目 B<ul><li>子项目 B-1</li><li>子项目 B-2</li></ul></li><li>项目 C</li></ul><h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><ul><li><input checked="" disabled="" type="checkbox"> 已完成：阅读 Frame 主题文档</li><li><input checked="" disabled="" type="checkbox"> 已完成：配置 _config.yml</li><li><input disabled="" type="checkbox"> 待完成：写测试文章</li><li><input disabled="" type="checkbox"> 待完成：测试搜索功能</li><li><input disabled="" type="checkbox"> 待完成：测试评论系统</li></ul><h3 id="表格测试"><a href="#表格测试" class="headerlink" title="表格测试"></a>表格测试</h3><table><thead><tr><th>功能</th><th align="center">状态</th><th>说明</th></tr></thead><tbody><tr><td>文字格式</td><td align="center">✅</td><td>粗体、斜体、删除线均正常</td></tr><tr><td>图片渲染</td><td align="center">✅</td><td>本地图片和外部图片均可加载</td></tr><tr><td>视频嵌入</td><td align="center">✅</td><td>Bilibili 视频 16:9 响应式</td></tr><tr><td>代码高亮</td><td align="center">⬜</td><td>待在其他文章中测试</td></tr><tr><td>数学公式</td><td align="center">⬜</td><td>需 mathjax_enable 开启</td></tr></tbody></table><h3 id="链接测试"><a href="#链接测试" class="headerlink" title="链接测试"></a>链接测试</h3><p>这是一段包含链接的文字：</p><ul><li><a href="https://github.com/zoeingwingkei/frame">Frame 主题 GitHub</a></li><li><a href="https://hexo.io/docs/">Hexo 官方文档</a></li></ul><hr><blockquote><p>总结：本文覆盖了 Frame 主题的核心功能。接下来请阅读 <code>archives</code> 分类下的技术文章测试，了解代码高亮、数学公式等更多功能。</p></blockquote>]]>
     </content>
