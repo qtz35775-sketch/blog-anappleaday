@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="L²w">
+
+
+    <meta name="subtitle" content="每天一个新发现">
+
+
+    <meta name="description" content="L²w 的个人博客，分享技术、生活与灵感">
+
+
+    <meta name="keywords" content="博客, 技术, 生活, 灵感, hexo">
+
+
+
+
+<title>全功能测试 - 技术文章 | An apple aDay</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+</style>
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/menu.js"></script>
+    
+    <script src="/js/scenes/cloudtrain.js"></script>
+    
+    <script src="/js/shader-engine.js"></script>
+    
+
+
+
+
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+
+
+
+
+  <meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="An apple aDay" type="application/atom+xml">
+</head>
+  <body>
+    <div class="mask-border">
+    </div>
+
+    <div class="wrapper">
+
+      <div class="header">
+  <div class="flex-container">
+    <div class="header-inner">
+      <div class="site-brand-container">
+        <a href="/">
+          
+            An apple aDay.
+          
+        </a>
+      </div>
+      <div id="menu-btn" class="menu-btn" onclick="toggleMenu()">
+        Menu
+      </div>
+      <nav class="site-nav">
+        <ul class="menu-list">
+          
+            
+              <li class="menu-item">
+                <a href="/">首页</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/archives/">技术文章</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/diary/">生活记录</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/showreel/">作品集</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/tag/">标签</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/about/">关于</a>
+              </li> 
+                   
+          
+          
+            <li class="menu-item search-btn">
+              <a href="#">Search</a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<script src="/js/menu.js"></script>
+
+
+      <div class="main">
+        <div class="flex-container">
+          <article id="post">
+
+  
+    <div class="post-head">
+    <div class="post-info">
+        <div class="tag-list">
+            
+                
+                    <span class="post-tag">
+                        <a href="/tags/%E6%8A%80%E6%9C%AF/">
+                            技术
+                        </a>
+                    </span>    
+                
+                    <span class="post-tag">
+                        <a href="/tags/%E7%BC%96%E7%A8%8B/">
+                            编程
+                        </a>
+                    </span>    
+                
+                    <span class="post-tag">
+                        <a href="/tags/%E6%B5%8B%E8%AF%95/">
+                            测试
+                        </a>
+                    </span>    
+                
+                    <span class="post-tag">
+                        <a href="/tags/Frame%E4%B8%BB%E9%A2%98/">
+                            Frame主题
+                        </a>
+                    </span>    
+                           
+            
+        </div>
+        <div class="post-title">
+            
+            
+                全功能测试 - 技术文章
+            
+            
+        </div>
+        <span class="post-date">
+            2026年5月2日
+        </span>
+    </div>
+    <div class="post-img">
+        
+        
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200" alt="featured_image">
+        
+    </div>
+</div>
+    <div class="post-content" style="zoom:0.85">
+    <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文属于 <strong>archieves</strong>（技术文章）分类，测试 Frame 主题中代码块、数学公式、Pullquote、定义列表等高级排版功能。本文已设置 <code>hide_comment: true</code>，评论区应该<strong>不显示</strong>。</p>
+<hr>
+<h2 id="JavaScript-代码块"><a href="#JavaScript-代码块" class="headerlink" title="JavaScript 代码块"></a>JavaScript 代码块</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 快速排序算法</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">quickSort</span>(<span class="params">arr</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (arr.<span class="property">length</span> &lt;= <span class="number">1</span>) <span class="keyword">return</span> arr;</span><br><span class="line">  <span class="keyword">const</span> pivot = arr[<span class="title class_">Math</span>.<span class="title function_">floor</span>(arr.<span class="property">length</span> / <span class="number">2</span>)];</span><br><span class="line">  <span class="keyword">const</span> left = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x &lt; pivot);</span><br><span class="line">  <span class="keyword">const</span> middle = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x === pivot);</span><br><span class="line">  <span class="keyword">const</span> right = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x &gt; pivot);</span><br><span class="line">  <span class="keyword">return</span> [...<span class="title function_">quickSort</span>(left), ...middle, ...<span class="title function_">quickSort</span>(right)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> testArray = [<span class="number">3</span>, <span class="number">7</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">9</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">8</span>, <span class="number">2</span>, <span class="number">6</span>];</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;排序结果:&#x27;</span>, <span class="title function_">quickSort</span>(testArray));</span><br><span class="line"><span class="comment">// 输出: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</span></span><br></pre></td></tr></table></figure>
+
+<blockquote class="pullquote left">
+快速排序由 C.A.R. Hoare 在 1960 年提出，平均时间复杂度为 O(n log n)，是最广泛使用的排序算法之一。
+</blockquote>
+
+<h2 id="Python-代码块"><a href="#Python-代码块" class="headerlink" title="Python 代码块"></a>Python 代码块</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression</span><br><span class="line"></span><br><span class="line"><span class="comment"># 生成模拟数据</span></span><br><span class="line">X = np.array([[<span class="number">1</span>], [<span class="number">2</span>], [<span class="number">3</span>], [<span class="number">4</span>], [<span class="number">5</span>]])</span><br><span class="line">y = np.array([<span class="number">2</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">4</span>, <span class="number">5</span>])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 训练线性回归模型</span></span><br><span class="line">model = LinearRegression()</span><br><span class="line">model.fit(X, y)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;斜率: <span class="subst">&#123;model.coef_[<span class="number">0</span>]:<span class="number">.2</span>f&#125;</span>&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;截距: <span class="subst">&#123;model.intercept_:<span class="number">.2</span>f&#125;</span>&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;R² 分数: <span class="subst">&#123;model.score(X, y):<span class="number">.2</span>f&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 预测新值</span></span><br><span class="line">new_X = np.array([[<span class="number">6</span>], [<span class="number">7</span>]])</span><br><span class="line">predictions = model.predict(new_X)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;预测结果: <span class="subst">&#123;predictions&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<blockquote class="pullquote right">
+scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 API 接口。
+</blockquote>
+
+<h2 id="CSS-代码块"><a href="#CSS-代码块" class="headerlink" title="CSS 代码块"></a>CSS 代码块</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* Frame 主题响应式布局核心 */</span></span><br><span class="line"><span class="selector-class">.flex-container</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">720px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">24px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">688px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.flex-container</span> &#123;</span><br><span class="line">    <span class="attribute">max-width</span>: <span class="built_in">calc</span>(<span class="number">100%</span> - <span class="number">48px</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.header</span> &#123;</span><br><span class="line">    <span class="attribute">flex-direction</span>: column;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="数学公式测试"><a href="#数学公式测试" class="headerlink" title="数学公式测试"></a>数学公式测试</h2><p>行内公式：$E = mc^2$</p>
+<p>块级公式：</p>
+<p>$$ \sum_{i=0}^{n} x_i = \frac{n(n+1)}{2} $$</p>
+<p>另一个块级公式（矩阵）：</p>
+<p>$$ \begin{bmatrix} a & b \\ c & d \end{bmatrix} \times \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} ax+by \\ cx+dy \end{bmatrix} $$</p>
+<hr>
+<h2 id="定义列表"><a href="#定义列表" class="headerlink" title="定义列表"></a>定义列表</h2><dl>
+<dt>Hexo</dt>
+<dd>一个快速、简洁且高效的 Node.js 博客框架。使用 Markdown 解析文章，通过主题渲染成静态网页。</dd>
+
+<dt>Frame 主题</dt>
+<dd>为 Hexo 设计的极简响应式主题，支持代码高亮、数学公式、搜索、评论等丰富功能。</dd>
+
+<dt>post_asset_folder</dt>
+<dd>Hexo 的一项配置（_config.yml 第 44 行），设为 true 后每次新建文章会自动创建同名资源文件夹，用于存放文章专属的图片等静态资源。</dd>
+</dl>
+
+<hr>
+<h2 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h2><div style="text-align:center">
+<img src="/images/test-image.jpg" alt="技术文章配图" style="width:80%">
+</div>
+
+<hr>
+<h2 id="视频测试"><a href="#视频测试" class="headerlink" title="视频测试"></a>视频测试</h2><div class="video-container">
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+<hr>
+<h2 id="表格测试"><a href="#表格测试" class="headerlink" title="表格测试"></a>表格测试</h2><table>
+<thead>
+<tr>
+<th>语言</th>
+<th>用途</th>
+<th align="center">难度</th>
+<th align="center">学习曲线</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>JavaScript</td>
+<td>前端开发</td>
+<td align="center">⭐⭐⭐</td>
+<td align="center">中等</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>数据分析 &#x2F; AI</td>
+<td align="center">⭐⭐</td>
+<td align="center">平缓</td>
+</tr>
+<tr>
+<td>Rust</td>
+<td>系统编程</td>
+<td align="center">⭐⭐⭐⭐⭐</td>
+<td align="center">陡峭</td>
+</tr>
+<tr>
+<td>Go</td>
+<td>后端 &#x2F; 云原生</td>
+<td align="center">⭐⭐⭐</td>
+<td align="center">平缓</td>
+</tr>
+<tr>
+<td>CSS</td>
+<td>样式设计</td>
+<td align="center">⭐⭐</td>
+<td align="center">中等</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> 搭建 Hexo 博客环境</li>
+<li><input checked="" disabled="" type="checkbox"> 安装 Frame 主题</li>
+<li><input checked="" disabled="" type="checkbox"> 配置 _config.yml</li>
+<li><input disabled="" type="checkbox"> 完成所有文章</li>
+<li><input disabled="" type="checkbox"> 部署到 GitHub Pages</li>
+<li><input disabled="" type="checkbox"> 配置自定义域名</li>
+</ul>
+<hr>
+<blockquote>
+<p>本文覆盖了 <strong>archieves</strong> 类别的核心技术排版功能。最后请阅读 <code>showreel</code> 分类下的作品展示文章。</p>
+</blockquote>
+
+</div> 
+
+<script>
+    window.onload = detectors();
+</script>
+    <div class="post-footer">
+    <div class="h-line-primary"></div>
+    <nav class="post-nav">
+        <div class="prev-item">
+           
+                <div class="icon arrow-left"></div>
+                <div class="post-link">
+                    <a href="/showreel/showreel-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA-4b887d773ca5/">Prev</a>
+                </div>
+            
+        </div>
+        <div class="next-item">
+            
+                <div class="icon arrow-right"></div>
+                <div class="post-link">
+                  <a href="/diary/diary-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95-8dbc52d07e6e/">Next</a>  
+                </div>  
+            
+        </div>
+    </nav>
+</div>
+
+     
+  
+</article>
+        </div>
+      </div>
+      
+      <div class="footer">
+    <div class="flex-container">
+        <div class="footer-text">
+            
+            
+                © 2026  L²w | 
+            
+            
+                Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & <a target="_blank" rel="noopener" href="https://github.com/zoeingwingkei/frame/">Frame</a>
+                
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    
+      <div class="search-popup">
+    <div class="search-popup-overlay">  
+    </div>
+    <div class="search-popup-window" >
+        <div class="search-header">
+            <div class="search-input-container">
+              <input autocomplete="off" autocapitalize="off" maxlength="80"
+                     placeholder="Search Anything" spellcheck="false"
+                     type="search" class="search-input">
+            </div>
+            <div class="search-close-btn">
+                <div class="icon close-btn"></div>
+            </div>
+        </div>
+        <div class="search-result-container">
+        </div>
+    </div>
+</div>
+
+<script>
+    const searchConfig = {
+        path             : "/search.xml",
+        top_n_per_article: "1",
+        unescape         : "false",
+        trigger: "auto",
+        preload: "true"
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js"></script>
+<script src="/js/search.js"></script>
+    
+    
+
+  </body>
+</html>
