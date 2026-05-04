@@ -10,7 +10,28 @@
   <rights>All rights reserved 2026, L²w</rights>
   <subtitle>每天一个新发现</subtitle>
   <title>An apple aDay</title>
-  <updated>2026-05-03T15:20:27.812Z</updated>
+  <updated>2026-05-04T07:20:09.624Z</updated>
+  <entry>
+    <author>
+      <name>L²w</name>
+    </author>
+    <category term="showreel" scheme="https://anappleaday.top/showreel/"/>
+    <category term="作品集" scheme="https://anappleaday.top/tags/%E4%BD%9C%E5%93%81%E9%9B%86/"/>
+    <category term="Unity" scheme="https://anappleaday.top/tags/Unity/"/>
+    <content>
+      <![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 1.5rem;">  <iframe    src="https://player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1"    scrolling="no"    border="0"    frameborder="no"    framespacing="0"    allowfullscreen="true"    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">  </iframe></div><div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 1.5rem;">  <iframe    src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1"    scrolling="no"    border="0"    frameborder="no"    framespacing="0"    allowfullscreen="true"    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">  </iframe></div>]]>
+    </content>
+    <id>https://anappleaday.top/showreel/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-0f60e2f13b95/</id>
+    <link href="https://anappleaday.top/showreel/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-0f60e2f13b95/"/>
+    <published>2026-05-04T06:29:57.000Z</published>
+    <summary>
+      <![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 1.5rem;">
+  <iframe
+    src="https://player.]]>
+    </summary>
+    <title>技术美术作品集-截至2026.5.4</title>
+    <updated>2026-05-04T07:20:09.624Z</updated>
+  </entry>
   <entry>
     <author>
       <name>L²w</name>
