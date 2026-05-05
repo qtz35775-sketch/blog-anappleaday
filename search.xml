@@ -1,69 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>全功能测试 - 作品展示</title>
-    <url>/showreel/showreel-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA-4b887d773ca5/</url>
-    <content><![CDATA[<h2 id="作品简介"><a href="#作品简介" class="headerlink" title="作品简介"></a>作品简介</h2><p>这篇文章属于 <strong>showreel</strong> 分类，用于测试 Frame 主题对作品集类文章的特殊渲染效果。</p>
-<blockquote>
-<p><strong>重要提示</strong>：Frame 主题对 <code>showreel</code> 分类有特殊处理——在单篇文章页面会<strong>隐藏 <code>featured_image</code></strong>（即便设置了也不会显示），但在分类页面（gallery 视图）中会照常展示。这是 Frame 主题的设计特性，让作品页面更加简洁。</p>
-</blockquote>
-<hr>
-<h2 id="标题层级测试"><a href="#标题层级测试" class="headerlink" title="标题层级测试"></a>标题层级测试</h2><h3 id="关于这个作品"><a href="#关于这个作品" class="headerlink" title="关于这个作品"></a>关于这个作品</h3><p>这是一篇测试文章，用于验证：</p>
-<ol>
-<li><strong>文字格式</strong>：<em><strong>粗斜体</strong></em> 效果正常</li>
-<li><del>删除内容</del>：删除线渲染正确</li>
-<li><code>行内代码</code>：在正文中的显示效果</li>
-<li>作品集布局：简洁干净</li>
-</ol>
-<hr>
-<h2 id="图片展示"><a href="#图片展示" class="headerlink" title="图片展示"></a>图片展示</h2><p>作品截图（宽度 100%）：</p>
-<div style="text-align:center">
-<img src="/images/showreel-全功能测试-作品展示-33c93559-1.jpg" alt="作品截图" style="width:100%">
-</div>
-
-<p>缩小到 60% 宽度查看：</p>
-<div style="text-align:center">
-<img src="/images/showreel-全功能测试-作品展示-33c93559-1.jpg" alt="作品截图 (60%)" style="width:60%">
-</div>
-
-<hr>
-<h2 id="视频演示"><a href="#视频演示" class="headerlink" title="视频演示"></a>视频演示</h2><div class="video-container">
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</div>
-
-<hr>
-<h2 id="功能清单"><a href="#功能清单" class="headerlink" title="功能清单"></a>功能清单</h2><p>无序列表：</p>
-<ul>
-<li>响应式设计（支持桌面端和移动端）</li>
-<li>暗色 &#x2F; 亮色 &#x2F; Classic 三种色彩模式</li>
-<li>本地搜索功能</li>
-<li>Valine &#x2F; Disqus 双评论系统</li>
-<li>WebGL 着色器主页动画</li>
-<li>代码语法高亮（17 种主题）</li>
-</ul>
-<hr>
-<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ol>
-<li>框架：Hexo</li>
-<li>主题：Frame</li>
-<li>部署：GitHub Pages</li>
-<li>语言：Markdown + EJS + Stylus</li>
-</ol>
-<hr>
-<blockquote>
-<p>Frame 主题是一个极简而功能丰富的 Hexo 主题，适合个人博客、技术文章和作品展示。三篇测试文章已覆盖其<strong>全部</strong>核心功能。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>showreel</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>展示</tag>
-        <tag>测试</tag>
-        <tag>Frame主题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>全功能测试 - 生活记录</title>
     <url>/diary/diary-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95-8dbc52d07e6e/</url>
     <content><![CDATA[<h2 id="这是一个二级标题"><a href="#这是一个二级标题" class="headerlink" title="这是一个二级标题"></a>这是一个二级标题</h2><p>欢迎来到 Frame 主题全功能测试。这篇文章属于 <strong>diary</strong> 分类，主要测试生活记录类文章的渲染效果。</p>
@@ -158,75 +95,10 @@
         <category>diary</category>
       </categories>
       <tags>
-        <tag>测试</tag>
-        <tag>Frame主题</tag>
         <tag>生活</tag>
+        <tag>测试</tag>
         <tag>全功能</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>技术美术作品集-截至2026.5.4</title>
-    <url>/showreel/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-0f60e2f13b95/</url>
-    <content><![CDATA[<h2 id="27届-技术美术作品集-ver1-2"><a href="#27届-技术美术作品集-ver1-2" class="headerlink" title="27届 技术美术作品集 ver1.2"></a>27届 技术美术作品集 ver1.2</h2><p><a href="https://www.bilibili.com/video/BV1dUykBREzQ">https://www.bilibili.com/video/BV1dUykBREzQ</a></p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 5rem;">
-  <iframe
-    src="https://player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1&autoplay=0"
-    scrolling="no"
-    border="0"
-    frameborder="no"
-    framespacing="0"
-    allowfullscreen="true"
-    sandbox="allow-scripts allow-same-origin allow-presentation"
-    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-  </iframe>
-</div>
-
-
-<h2 id="作品集DLC-仿《尼尔：机械纪元》人物-场景渲染"><a href="#作品集DLC-仿《尼尔：机械纪元》人物-场景渲染" class="headerlink" title="作品集DLC-仿《尼尔：机械纪元》人物&#x2F;场景渲染"></a>作品集DLC-仿《尼尔：机械纪元》人物&#x2F;场景渲染</h2><p><a href="https://www.bilibili.com/video/BV1iCwBzsE8D">https://www.bilibili.com/video/BV1iCwBzsE8D</a></p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 5rem;">
-  <iframe
-    src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1&autoplay=0"
-    scrolling="no"
-    border="0"
-    frameborder="no"
-    framespacing="0"
-    allowfullscreen="true"
-    sandbox="allow-scripts allow-same-origin allow-presentation"
-    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-  </iframe>
-</div>
-
-
-<hr>
-<h2 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h2><p><strong>体积云</strong>：视线方向步进BeerLambert计算透射+主光方向步进计算散射<br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-1.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-1.png" style="width:80%"><br><br><br><br><strong>NPR</strong>：RampMap实现风格化光照<br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-2.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-2.png" style="width:80%"></p>
-<p><strong>后处理描边</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-3.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-3.png" style="width:80%"></p>
-<p><strong>法线外扩描边</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-4.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-4.png" style="width:80%"></p>
-<p><strong>RampMap编辑器</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-5.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-5.png" style="width:80%"></p>
-<p><br><br><br><strong>手搓IK+PBR全流程</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-6.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-6.png" style="width:80%"></p>
-<img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-7.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-7.png" style="width:80%">
-
-<img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-8.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-8.png" style="width:80%">
-
-<img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-9.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-9.png" style="width:80%">
-
-<img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-10.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-10.png" style="width:80%">
-
-
-<p><br><br><br><strong>基于深度图重建的视野可视化</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-11.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-11.png" style="width:80%"></p>
-<p><strong>游戏Demo（录这个视频时设置有问题导致视野没被遮挡）</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-12.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-12.png" style="width:80%"></p>
-<p><br><br><br><strong>仿《尼尔：机械纪元》人物+场景渲染</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-13.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-13.png" style="width:80%"></p>
-<p><strong>SSSLUT皮肤+Marchner头发</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-14.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-14.png" style="width:80%"></p>
-<p><strong>体积光（不太明显）+粒子效果</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-15.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-15.png" style="width:80%"></p>
-<p><strong>Shell毛发渲染（gpu instancing优化，一个pass画完所有shell）</strong><br><img src="/images/技术美术作品集-截至2026-5-4-dbce9ae0-16.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-16.png" style="width:80%"></p>
-]]></content>
-      <categories>
-        <category>showreel</category>
-      </categories>
-      <tags>
-        <tag>作品集</tag>
-        <tag>Unity</tag>
+        <tag>Frame主题</tag>
       </tags>
   </entry>
   <entry>
@@ -234,6 +106,11 @@
     <url>/archives/archives-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-1b81af13c4bd/</url>
     <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文属于 <strong>archives</strong>（技术文章）分类，测试 Frame 主题中代码块、数学公式、Pullquote、定义列表等高级排版功能。本文已设置 <code>hide_comment: true</code>，评论区应该<strong>不显示</strong>。</p>
 <hr>
+<div style="text-align:center">
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1777955724549.png" alt="图片" style="width:100%">
+</div>
+
+
 <h2 id="JavaScript-代码块"><a href="#JavaScript-代码块" class="headerlink" title="JavaScript 代码块"></a>JavaScript 代码块</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 快速排序算法</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">quickSort</span>(<span class="params">arr</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (arr.<span class="property">length</span> &lt;= <span class="number">1</span>) <span class="keyword">return</span> arr;</span><br><span class="line">  <span class="keyword">const</span> pivot = arr[<span class="title class_">Math</span>.<span class="title function_">floor</span>(arr.<span class="property">length</span> / <span class="number">2</span>)];</span><br><span class="line">  <span class="keyword">const</span> left = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x &lt; pivot);</span><br><span class="line">  <span class="keyword">const</span> middle = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x === pivot);</span><br><span class="line">  <span class="keyword">const</span> right = arr.<span class="title function_">filter</span>(<span class="function"><span class="params">x</span> =&gt;</span> x &gt; pivot);</span><br><span class="line">  <span class="keyword">return</span> [...<span class="title function_">quickSort</span>(left), ...middle, ...<span class="title function_">quickSort</span>(right)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> testArray = [<span class="number">3</span>, <span class="number">7</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">9</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">8</span>, <span class="number">2</span>, <span class="number">6</span>];</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;排序结果:&#x27;</span>, <span class="title function_">quickSort</span>(testArray));</span><br><span class="line"><span class="comment">// 输出: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</span></span><br></pre></td></tr></table></figure>
 
 <blockquote class="pullquote left">
@@ -352,13 +229,141 @@ scikit-learn 是 Python 最流行的机器学习库，提供了简洁统一的 A
       </tags>
   </entry>
   <entry>
+    <title>技术美术作品集-截至2026.5.4</title>
+    <url>/showreel/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-0f60e2f13b95/</url>
+    <content><![CDATA[<h2 id="27届-技术美术作品集-ver1-2"><a href="#27届-技术美术作品集-ver1-2" class="headerlink" title="27届 技术美术作品集 ver1.2"></a>27届 技术美术作品集 ver1.2</h2><p><a href="https://www.bilibili.com/video/BV1dUykBREzQ">https://www.bilibili.com/video/BV1dUykBREzQ</a></p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 5rem;">
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    sandbox="allow-scripts allow-same-origin allow-presentation"
+    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+  </iframe>
+</div>
+
+
+<h2 id="作品集DLC-仿《尼尔：机械纪元》人物-场景渲染"><a href="#作品集DLC-仿《尼尔：机械纪元》人物-场景渲染" class="headerlink" title="作品集DLC-仿《尼尔：机械纪元》人物&#x2F;场景渲染"></a>作品集DLC-仿《尼尔：机械纪元》人物&#x2F;场景渲染</h2><p><a href="https://www.bilibili.com/video/BV1iCwBzsE8D">https://www.bilibili.com/video/BV1iCwBzsE8D</a></p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 5rem;">
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    sandbox="allow-scripts allow-same-origin allow-presentation"
+    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+  </iframe>
+</div>
+
+
+<hr>
+<h2 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h2><p><strong>体积云</strong>：视线方向步进BeerLambert计算透射+主光方向步进计算散射<br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-1.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-1.png" style="width:80%"><br><br><br><br><strong>NPR</strong>：RampMap实现风格化光照<br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-2.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-2.png" style="width:80%"></p>
+<p><strong>后处理描边</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-3.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-3.png" style="width:80%"></p>
+<p><strong>法线外扩描边</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-4.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-4.png" style="width:80%"></p>
+<p><strong>RampMap编辑器</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-5.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-5.png" style="width:80%"></p>
+<p><br><br><br><strong>手搓IK+PBR全流程</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-6.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-6.png" style="width:80%"></p>
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-7.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-7.png" style="width:80%">
+
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-8.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-8.png" style="width:80%">
+
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-9.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-9.png" style="width:80%">
+
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-10.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-10.png" style="width:80%">
+
+
+<p><br><br><br><strong>基于深度图重建的视野可视化</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-11.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-11.png" style="width:80%"></p>
+<p><strong>游戏Demo（录这个视频时设置有问题导致视野没被遮挡）</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-12.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-12.png" style="width:80%"></p>
+<p><br><br><br><strong>仿《尼尔：机械纪元》人物+场景渲染</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-13.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-13.png" style="width:80%"></p>
+<p><strong>SSSLUT皮肤+Marchner头发</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-14.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-14.png" style="width:80%"></p>
+<p><strong>体积光（不太明显）+粒子效果</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-15.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-15.png" style="width:80%"></p>
+<p><strong>Shell毛发渲染（gpu instancing优化，一个pass画完所有shell）</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-16.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-16.png" style="width:80%"></p>
+]]></content>
+      <categories>
+        <category>showreel</category>
+      </categories>
+      <tags>
+        <tag>作品集</tag>
+        <tag>Unity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>全功能测试 - 作品展示</title>
+    <url>/showreel/showreel-%E5%85%A8%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95-%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA-4b887d773ca5/</url>
+    <content><![CDATA[<h2 id="作品简介"><a href="#作品简介" class="headerlink" title="作品简介"></a>作品简介</h2><p>这篇文章属于 <strong>showreel</strong> 分类，用于测试 Frame 主题对作品集类文章的特殊渲染效果。</p>
+<blockquote>
+<p><strong>重要提示</strong>：Frame 主题对 <code>showreel</code> 分类有特殊处理——在单篇文章页面会<strong>隐藏 <code>featured_image</code></strong>（即便设置了也不会显示），但在分类页面（gallery 视图）中会照常展示。这是 Frame 主题的设计特性，让作品页面更加简洁。</p>
+</blockquote>
+<hr>
+<h2 id="标题层级测试"><a href="#标题层级测试" class="headerlink" title="标题层级测试"></a>标题层级测试</h2><h3 id="关于这个作品"><a href="#关于这个作品" class="headerlink" title="关于这个作品"></a>关于这个作品</h3><p>这是一篇测试文章，用于验证：</p>
+<ol>
+<li><strong>文字格式</strong>：<em><strong>粗斜体</strong></em> 效果正常</li>
+<li><del>删除内容</del>：删除线渲染正确</li>
+<li><code>行内代码</code>：在正文中的显示效果</li>
+<li>作品集布局：简洁干净</li>
+</ol>
+<hr>
+<h2 id="图片展示"><a href="#图片展示" class="headerlink" title="图片展示"></a>图片展示</h2><p>作品截图（宽度 100%）：</p>
+<div style="text-align:center">
+<img src="/images/showreel-全功能测试-作品展示-33c93559-1.jpg" alt="作品截图" style="width:100%">
+</div>
+
+<p>缩小到 60% 宽度查看：</p>
+<div style="text-align:center">
+<img src="/images/showreel-全功能测试-作品展示-33c93559-1.jpg" alt="作品截图 (60%)" style="width:60%">
+</div>
+
+<hr>
+<h2 id="视频演示"><a href="#视频演示" class="headerlink" title="视频演示"></a>视频演示</h2><div class="video-container">
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+<hr>
+<h2 id="功能清单"><a href="#功能清单" class="headerlink" title="功能清单"></a>功能清单</h2><p>无序列表：</p>
+<ul>
+<li>响应式设计（支持桌面端和移动端）</li>
+<li>暗色 &#x2F; 亮色 &#x2F; Classic 三种色彩模式</li>
+<li>本地搜索功能</li>
+<li>Valine &#x2F; Disqus 双评论系统</li>
+<li>WebGL 着色器主页动画</li>
+<li>代码语法高亮（17 种主题）</li>
+</ul>
+<hr>
+<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ol>
+<li>框架：Hexo</li>
+<li>主题：Frame</li>
+<li>部署：GitHub Pages</li>
+<li>语言：Markdown + EJS + Stylus</li>
+</ol>
+<hr>
+<blockquote>
+<p>Frame 主题是一个极简而功能丰富的 Hexo 主题，适合个人博客、技术文章和作品展示。三篇测试文章已覆盖其<strong>全部</strong>核心功能。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>showreel</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+        <tag>Frame主题</tag>
+        <tag>作品</tag>
+        <tag>展示</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于</title>
     <url>/about/index.html</url>
     <content><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>随处可见的图形学爱好者是也，也会做一些其他感兴趣的东西；<br>目前大三，在找实习，目标岗位技术美术。</p>
 <p><strong>联系方式：</strong></p>
 <p>如果你有任何想法或建议，欢迎通过以下方式联系我：</p>
 <ul>
-<li>Email：<a href="mailto:&#113;&#x74;&#122;&#51;&#53;&#55;&#x37;&#53;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">qtz35775@gmail.com</a></li>
+<li>Email：<a href="mailto:&#x71;&#116;&#x7a;&#x33;&#53;&#x37;&#x37;&#53;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">qtz35775@gmail.com</a></li>
 <li>电话&#x2F;微信：18802405078</li>
 <li>QQ：653119706</li>
 </ul>
