@@ -196,8 +196,73 @@
       </tags>
   </entry>
   <entry>
-    <title>全局光照小解（一）：Lightmap、SH、Reflection probe</title>
-    <url>//archives/a8f7b0aa/</url>
+    <title>技术美术作品集-截至2026.5.4</title>
+    <url>//showreel/245b91e9/</url>
+    <content><![CDATA[<h2 id="27届-技术美术作品集-ver1-2"><a href="#27届-技术美术作品集-ver1-2" class="headerlink" title="27届 技术美术作品集 ver1.2"></a>27届 技术美术作品集 ver1.2</h2><p><a href="https://www.bilibili.com/video/BV1dUykBREzQ">https://www.bilibili.com/video/BV1dUykBREzQ</a></p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 5rem;">
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    sandbox="allow-scripts allow-same-origin allow-presentation"
+    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+  </iframe>
+</div>
+
+
+<h2 id="作品集DLC-仿《尼尔：机械纪元》人物-场景渲染"><a href="#作品集DLC-仿《尼尔：机械纪元》人物-场景渲染" class="headerlink" title="作品集DLC-仿《尼尔：机械纪元》人物&#x2F;场景渲染"></a>作品集DLC-仿《尼尔：机械纪元》人物&#x2F;场景渲染</h2><p><a href="https://www.bilibili.com/video/BV1iCwBzsE8D">https://www.bilibili.com/video/BV1iCwBzsE8D</a></p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 5rem;">
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    sandbox="allow-scripts allow-same-origin allow-presentation"
+    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+  </iframe>
+</div>
+
+
+<hr>
+<h2 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h2><p><strong>体积云</strong>：视线方向步进BeerLambert计算透射+主光方向步进计算散射<br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-1.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-1.png" style="width:80%"><br><br><br><br><strong>NPR</strong>：RampMap实现风格化光照<br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-2.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-2.png" style="width:80%"></p>
+<p><strong>后处理描边</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-3.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-3.png" style="width:80%"></p>
+<p><strong>法线外扩描边</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-4.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-4.png" style="width:80%"></p>
+<p><strong>RampMap编辑器</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-5.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-5.png" style="width:80%"></p>
+<p><br><br><br><strong>手搓IK+PBR全流程</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-6.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-6.png" style="width:80%"></p>
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-7.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-7.png" style="width:80%">
+
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-8.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-8.png" style="width:80%">
+
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-9.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-9.png" style="width:80%">
+
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-10.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-10.png" style="width:80%">
+
+
+<p><br><br><br><strong>基于深度图重建的视野可视化</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-11.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-11.png" style="width:80%"></p>
+<p><strong>游戏Demo（录这个视频时设置有问题导致视野没被遮挡）</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-12.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-12.png" style="width:80%"></p>
+<p><br><br><br><strong>仿《尼尔：机械纪元》人物+场景渲染</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-13.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-13.png" style="width:80%"></p>
+<p><strong>SSSLUT皮肤+Marchner头发</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-14.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-14.png" style="width:80%"></p>
+<p><strong>体积光（不太明显）+粒子效果</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-15.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-15.png" style="width:80%"></p>
+<p><strong>Shell毛发渲染（gpu instancing优化，一个pass画完所有shell）</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-16.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-16.png" style="width:80%"></p>
+]]></content>
+      <categories>
+        <category>showreel</category>
+      </categories>
+      <tags>
+        <tag>作品集</tag>
+        <tag>Unity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>全局光照小解（一）：Lightmap、SH、Pre-filter Environment Map</title>
+    <url>//archives/5ff2a543/</url>
     <content><![CDATA[<h1 id="1-Lightmap"><a href="#1-Lightmap" class="headerlink" title="1 Lightmap"></a>1 Lightmap</h1><p>&emsp;即用一张大texture按texel存储离线渲染出的光照。由于是烘焙死的，只能负责静态物体的间接光照。</p>
 <p>&emsp;以Unity2022为例，主要有三种Lightmap：</p>
 <p>&emsp; 1. <strong>Baked Lightmap</strong>：最主要的lightmap，存储离线计算出的辐照度。着色时，间接光漫反射颜色$L_o = \frac{albedo}{\pi}E$，$E$即baked lightmap存储的辐照度（工程实现时$\pi$可能被合进其它项）；</p>
@@ -272,71 +337,9 @@ $$</p>
       <tags>
         <tag>全局光照</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>技术美术作品集-截至2026.5.4</title>
-    <url>//showreel/245b91e9/</url>
-    <content><![CDATA[<h2 id="27届-技术美术作品集-ver1-2"><a href="#27届-技术美术作品集-ver1-2" class="headerlink" title="27届 技术美术作品集 ver1.2"></a>27届 技术美术作品集 ver1.2</h2><p><a href="https://www.bilibili.com/video/BV1dUykBREzQ">https://www.bilibili.com/video/BV1dUykBREzQ</a></p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 5rem;">
-  <iframe
-    src="https://player.bilibili.com/player.html?bvid=BV1dUykBREzQ&page=1&high_quality=1&autoplay=0"
-    scrolling="no"
-    border="0"
-    frameborder="no"
-    framespacing="0"
-    allowfullscreen="true"
-    sandbox="allow-scripts allow-same-origin allow-presentation"
-    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-  </iframe>
-</div>
-
-
-<h2 id="作品集DLC-仿《尼尔：机械纪元》人物-场景渲染"><a href="#作品集DLC-仿《尼尔：机械纪元》人物-场景渲染" class="headerlink" title="作品集DLC-仿《尼尔：机械纪元》人物&#x2F;场景渲染"></a>作品集DLC-仿《尼尔：机械纪元》人物&#x2F;场景渲染</h2><p><a href="https://www.bilibili.com/video/BV1iCwBzsE8D">https://www.bilibili.com/video/BV1iCwBzsE8D</a></p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 5rem;">
-  <iframe
-    src="https://player.bilibili.com/player.html?bvid=BV1iCwBzsE8D&page=1&high_quality=1&autoplay=0"
-    scrolling="no"
-    border="0"
-    frameborder="no"
-    framespacing="0"
-    allowfullscreen="true"
-    sandbox="allow-scripts allow-same-origin allow-presentation"
-    style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-  </iframe>
-</div>
-
-
-<hr>
-<h2 id="文字版"><a href="#文字版" class="headerlink" title="文字版"></a>文字版</h2><p><strong>体积云</strong>：视线方向步进BeerLambert计算透射+主光方向步进计算散射<br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-1.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-1.png" style="width:80%"><br><br><br><br><strong>NPR</strong>：RampMap实现风格化光照<br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-2.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-2.png" style="width:80%"></p>
-<p><strong>后处理描边</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-3.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-3.png" style="width:80%"></p>
-<p><strong>法线外扩描边</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-4.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-4.png" style="width:80%"></p>
-<p><strong>RampMap编辑器</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-5.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-5.png" style="width:80%"></p>
-<p><br><br><br><strong>手搓IK+PBR全流程</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-6.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-6.png" style="width:80%"></p>
-<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-7.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-7.png" style="width:80%">
-
-<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-8.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-8.png" style="width:80%">
-
-<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-9.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-9.png" style="width:80%">
-
-<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-10.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-10.png" style="width:80%">
-
-
-<p><br><br><br><strong>基于深度图重建的视野可视化</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-11.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-11.png" style="width:80%"></p>
-<p><strong>游戏Demo（录这个视频时设置有问题导致视野没被遮挡）</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-12.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-12.png" style="width:80%"></p>
-<p><br><br><br><strong>仿《尼尔：机械纪元》人物+场景渲染</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-13.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-13.png" style="width:80%"></p>
-<p><strong>SSSLUT皮肤+Marchner头发</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-14.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-14.png" style="width:80%"></p>
-<p><strong>体积光（不太明显）+粒子效果</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-15.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-15.png" style="width:80%"></p>
-<p><strong>Shell毛发渲染（gpu instancing优化，一个pass画完所有shell）</strong><br><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%88%AA%E8%87%B32026-5-4-dbce9ae0-16.png" alt="技术美术作品集-截至2026-5-4-dbce9ae0-16.png" style="width:80%"></p>
-]]></content>
-      <categories>
-        <category>showreel</category>
-      </categories>
-      <tags>
-        <tag>作品集</tag>
-        <tag>Unity</tag>
+        <tag>SH</tag>
+        <tag>Lightmap</tag>
+        <tag>pre-filter environment map</tag>
       </tags>
   </entry>
   <entry>
