@@ -238,7 +238,21 @@ $$</p>
 <p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p>
 </div>
 
-<p>&emsp;着色时采样后再乘上 $k_d\rho$ （ $\pi$ 与积分部分一起预计算了)</p>
+<p>&emsp;引擎中通常利用SH存储Irradiance，即积分部分 $\int_{\Omega}L_i(\omega_i)(n\cdot\omega_i)d\omega_i$。<br><br></p>
+<h2 id="2-2-球谐函数SH"><a href="#2-2-球谐函数SH" class="headerlink" title="2.2 球谐函数SH"></a>2.2 球谐函数SH</h2><p>&emsp;关于球谐函数的数学定义和推导过程详见<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Spherical_harmonics">维基百科：球谐函数</a>，在此不进行详细说明。</p>
+<p>&emsp;从应用角度讲，球谐函数是一组基函数 $Y_l^m(\omega)$ ，通过线性组合可以表示任意球面函数，即 $f(\omega) = \sum c_{lm}Y_l^m(\omega)$。</p>
+<p>&emsp;因此我们可以利用这一点以球谐函数为载体存储空间中某坐标的Irradiance信息，详细来说则是把Irradiance投影到SH，只存储9个方向上SH的系数（每个系数是一个RGB三维向量）。</p>
+<div style="text-align:center">
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778598895689.png" alt="图片" style="width:80%">
+<p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p>
+</div>
+
+<p>&emsp;球谐函数本身可以表示任意球面函数，但实时渲染中通常仅截取低阶项（如二阶 SH，共 9 个系数），球谐函数前三层几乎包含全部能量，因此前三阶足以很好的表示漫反射Irradiance。</p>
+<blockquote>
+<p>Lambertian irradiance can be accurately approximated using only 9 SH coefficients.</p>
+</blockquote>
+<p>&emsp;这一结论来自<a target="_blank" rel="noopener" href="https://cseweb.ucsd.edu/~ravir/papers/envmap/envmap.pdf">An Efficient Representation for Irradiance Environment Maps</a>.</p>
+<p>&emsp;高光不用 SH 不只是因为存储量增加，而是因为高频信号需要大量高阶系数，导致存储、运行时计算、以及 probe 插值稳定性都变差，综合成本远高于直接使用 cubemap。</p>
 
 </div> 
 
