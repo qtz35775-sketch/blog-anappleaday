@@ -308,13 +308,13 @@ $$</p>
 <p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p>
 </div>
 
-<br>
-&emsp;积分过程：蒙特卡洛积分，在半球面上均匀采样（ $p=\frac{1}{2\pi*0.5\pi}$ ）
-
+<p><br><br><br>&emsp;积分过程：蒙特卡洛积分，在半球面上均匀采样（ $p=\frac{1}{2\pi*0.5\pi}$ ）</p>
 <div style="text-align:center">
 <img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778593224885.png" alt="图片" style="width:95%">
 <p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p>
 </div>
+
+<p>&emsp;着色时采样后再乘上 $k_d\rho$ （ $\pi$ 与积分部分一起预计算了)</p>
 ]]></content>
       <categories>
         <category>archives</category>
