@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, L²w</rights>
   <subtitle>每天一个新发现</subtitle>
   <title>An apple aDay</title>
-  <updated>2026-05-12T09:35:14.659Z</updated>
+  <updated>2026-05-12T09:52:11.893Z</updated>
   <entry>
     <author>
       <name>L²w</name>
@@ -19,7 +19,7 @@
     <category term="全局光照" scheme="https://anappleaday.top/tags/%E5%85%A8%E5%B1%80%E5%85%89%E7%85%A7/"/>
     <category term="笔记" scheme="https://anappleaday.top/tags/%E7%AC%94%E8%AE%B0/"/>
     <content>
-      <![CDATA[<h1 id="Lightmap"><a href="#Lightmap" class="headerlink" title="Lightmap"></a>Lightmap</h1><p>&emsp;即用一张大texture按texel存储离线渲染出的光照。由于是烘焙死的，只能负责静态物体的间接光照。</p><p>&emsp;以Unity2022为例，主要有三种Lightmap：</p><p>&emsp; 1. <strong>Baked Lightmap</strong>：最主要的lightmap，存储离线计算出的辐照度。着色时，间接光漫反射颜色$L_o = \frac{albedo}{\pi}E$，$E$即baked lightmap存储的辐照度（工程实现时$\pi$可能被合进其它项）；</p><div style="text-align:center"><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778565201159.png" alt="Baked Lightmap" style="width:80%"></div><p>&emsp; 2. <strong>Directional Lightmap</strong>：存储方向信息。Baked Lightmap只存储了texel上能量的大小而没有方向信息，这会导致法线贴图失效和凹凸细节丢失，因此使用一张Directional Lightmap存储方向信息。实际上存储的是各方向入射光贡献的主导方向近似（归一化加权平均），着色时$E_{final} = E\cdot max(0,\vec{n}\cdot \vec{d})$，$\vec{d}$即所存等效光照方向；</p><div style="text-align:center"><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778566351456.png" alt="图片" style="width:80%"></div><p>&emsp; 3. <strong>Shadowmask</strong>：逐texel存储静态物体表面的受遮挡信息，相当于预计算的shadow attenuation，静态物体着色时，其阴影直接来源于shadowmask中存储的遮挡信息（除distance shadow mask）。shadowmask主要针对mixed光源，其每个通道对应一盏mixed光源的遮挡信息。<br>&emsp;我们假设如下场景：一盏mixed光源l、静态地面g上的静态物体a和受a遮挡的非静态物体b，此时g和a的阴影来自shadowmask，且在生成l的shadowmap时会忽略a，进而b不会接收到a的阴影。显然这是不可以容忍的，在实际项目中，动态物体通常会通过lightprobe获取阴影信息。<br>&emsp;除了lightprobe，还有一种叫做distance shadowmask的模式，简单来说，在距离摄像机distance范围内，无论是否静态，都使用realtime阴影（参与shadowmap）；而在distance外，静态物体正常使用shadowmask，远距离让动态物体的阴影问题变得不那么明显，大世界游戏通常采用这种做法。</p><div style="text-align:center"><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778578484055.png" alt="图片" style="width:80%"></div>]]>
+      <![CDATA[<h1 id="Lightmap"><a href="#Lightmap" class="headerlink" title="Lightmap"></a>Lightmap</h1><p>&emsp;即用一张大texture按texel存储离线渲染出的光照。由于是烘焙死的，只能负责静态物体的间接光照。</p><p>&emsp;以Unity2022为例，主要有三种Lightmap：</p><p>&emsp; 1. <strong>Baked Lightmap</strong>：最主要的lightmap，存储离线计算出的辐照度。着色时，间接光漫反射颜色$L_o = \frac{albedo}{\pi}E$，$E$即baked lightmap存储的辐照度（工程实现时$\pi$可能被合进其它项）；</p><div style="text-align:center"><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778565201159.png" alt="Baked Lightmap" style="width:80%"></div><p>&emsp; 2. <strong>Directional Lightmap</strong>：存储方向信息。Baked Lightmap只存储了texel上能量的大小而没有方向信息，这会导致法线贴图失效和凹凸细节丢失，因此使用一张Directional Lightmap存储方向信息。实际上存储的是各方向入射光贡献的主导方向近似（归一化加权平均），着色时$E_{final} = E\cdot max(0,\vec{n}\cdot \vec{d})$，$\vec{d}$即所存等效光照方向；</p><div style="text-align:center"><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778566351456.png" alt="图片" style="width:80%"></div><p>&emsp; 3. <strong>Shadowmask</strong>：逐texel存储静态物体表面的受遮挡信息，相当于预计算的shadow attenuation，静态物体着色时，其阴影直接来源于shadowmask中存储的遮挡信息（除distance shadow mask）。shadowmask主要针对mixed光源，其每个通道对应一盏mixed光源的遮挡信息。</p><div style="text-align:center"><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778578484055.png" alt="图片" style="width:80%"></div><p>&emsp;我们假设如下场景：一盏mixed光源l、静态地面g上的静态物体a和受a遮挡的非静态物体b，此时g和a的阴影来自shadowmask，且在生成l的shadowmap时会忽略a，进而b不会接收到a的阴影。显然这是不可以容忍的，在实际项目中，动态物体通常会通过lightprobe获取阴影信息。</p><p>&emsp;除了lightprobe，还有一种叫做distance shadowmask的模式，简单来说，在距离摄像机distance范围内，无论是否静态，都使用realtime阴影（参与shadowmap）；而在distance外，静态物体正常使用shadowmask，远距离让动态物体的阴影问题变得不那么明显，大世界游戏通常采用这种做法。</p>]]>
     </content>
     <id>https://anappleaday.top/archives/a8f7b0aa/</id>
     <link href="https://anappleaday.top/archives/a8f7b0aa/"/>
@@ -28,7 +28,7 @@
       <![CDATA[<h1 id="Lightmap"><a href="#Lightmap" class="headerlink" title="Lightmap"></a>Lightmap</h1><p>&emsp;即用一张大texture按texel存储离线渲染出的光照。由于是烘焙死的，只能负]]>
     </summary>
     <title>全局光照小解（一）：Lightmap、SH、Reflection probe</title>
-    <updated>2026-05-12T09:35:14.659Z</updated>
+    <updated>2026-05-12T09:52:11.893Z</updated>
   </entry>
   <entry>
     <author>

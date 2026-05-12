@@ -15,12 +15,13 @@
 <img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778566351456.png" alt="图片" style="width:80%">
 </div>
 
-<p>&emsp; 3. <strong>Shadowmask</strong>：逐texel存储静态物体表面的受遮挡信息，相当于预计算的shadow attenuation，静态物体着色时，其阴影直接来源于shadowmask中存储的遮挡信息（除distance shadow mask）。shadowmask主要针对mixed光源，其每个通道对应一盏mixed光源的遮挡信息。<br>&emsp;我们假设如下场景：一盏mixed光源l、静态地面g上的静态物体a和受a遮挡的非静态物体b，此时g和a的阴影来自shadowmask，且在生成l的shadowmap时会忽略a，进而b不会接收到a的阴影。显然这是不可以容忍的，在实际项目中，动态物体通常会通过lightprobe获取阴影信息。<br>&emsp;除了lightprobe，还有一种叫做distance shadowmask的模式，简单来说，在距离摄像机distance范围内，无论是否静态，都使用realtime阴影（参与shadowmap）；而在distance外，静态物体正常使用shadowmask，远距离让动态物体的阴影问题变得不那么明显，大世界游戏通常采用这种做法。</p>
+<p>&emsp; 3. <strong>Shadowmask</strong>：逐texel存储静态物体表面的受遮挡信息，相当于预计算的shadow attenuation，静态物体着色时，其阴影直接来源于shadowmask中存储的遮挡信息（除distance shadow mask）。shadowmask主要针对mixed光源，其每个通道对应一盏mixed光源的遮挡信息。</p>
 <div style="text-align:center">
 <img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778578484055.png" alt="图片" style="width:80%">
 </div>
 
-
+<p>&emsp;我们假设如下场景：一盏mixed光源l、静态地面g上的静态物体a和受a遮挡的非静态物体b，此时g和a的阴影来自shadowmask，且在生成l的shadowmap时会忽略a，进而b不会接收到a的阴影。显然这是不可以容忍的，在实际项目中，动态物体通常会通过lightprobe获取阴影信息。</p>
+<p>&emsp;除了lightprobe，还有一种叫做distance shadowmask的模式，简单来说，在距离摄像机distance范围内，无论是否静态，都使用realtime阴影（参与shadowmap）；而在distance外，静态物体正常使用shadowmask，远距离让动态物体的阴影问题变得不那么明显，大世界游戏通常采用这种做法。</p>
 ]]></content>
       <categories>
         <category>archives</category>
