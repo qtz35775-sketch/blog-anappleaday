@@ -329,7 +329,59 @@ $$</p>
 </blockquote>
 <p>&emsp;这一结论来自 <a href="https://cseweb.ucsd.edu/~ravir/papers/envmap/envmap.pdf">An Efficient Representation for Irradiance Environment Maps</a>.</p>
 <p>&emsp;高光不用 SH 不只是因为存储量增加，而是因为高频信号需要大量高阶系数，导致存储、运行时计算、以及 probe 插值稳定性都变差，综合成本远高于直接使用 cubemap.</p>
-<p>&emsp;引擎中通常使用light probe作为sh的载体，以Unity2021为例，SH的表示和重建参见 <a href="http://www.ppsloan.org/publications/StupidSH36.pdf">愚蠢的球谐函数 (SH) 技巧 (Stupid Spherical Harmonics (SH) Tricks)</a>.</p>
+<p>&emsp;引擎中通常使用light probe作为sh的载体，以Unity2021为例，SH的表示和重建参见 <a href="http://www.ppsloan.org/publications/StupidSH36.pdf">愚蠢的球谐函数 (SH) 技巧 (Stupid Spherical Harmonics (SH) Tricks)</a>.<br><br></p>
+<hr>
+<h1 id="3-Pre-filter-Environment-Map"><a href="#3-Pre-filter-Environment-Map" class="headerlink" title="3 Pre-filter Environment Map"></a>3 Pre-filter Environment Map</h1><h2 id="3-1-IBL镜面反射部分"><a href="#3-1-IBL镜面反射部分" class="headerlink" title="3.1 IBL镜面反射部分"></a>3.1 IBL镜面反射部分</h2><p>&emsp;镜面项为 ：<br>$$
+L_s(\omega_o)=\int_{\Omega}f_s(\omega_i,\omega_o)L_i(\omega_i)(n\cdot\omega_i)d\omega_i
+$$<br>&emsp;最简单暴力的思路就是依旧使用蒙特卡洛积分求解：<br>$$
+\int_{\Omega}f_s(\omega_i,\omega_o)L_i(\omega_i)(n\cdot\omega_i)\approx\frac{1}{N}\sum_{j}^{N}{\frac{f_s(\omega_i^{(j)},\omega_o)L_i(\omega_i^{(j)})(n\cdot\omega_i^{(j)})}{p(\omega_i^{(j)})}}
+$$<br>&emsp;但是为了快速计算，没办法过多采样（镜面反射公式太复杂），而采样较少误差又会很大，所以没办法应用在实时渲染中。</p>
+<p>&emsp;…</p>
+<p>&emsp;经过一系列化简（<em><strong>附1</strong></em> ）我们得到<br>$$
+\int_{\Omega}f_s(\omega_i,\omega_o)L_i(\omega_i)(n\cdot\omega_i)d\omega_i=L_c^*(R)\int_{\Omega}f_s(\omega_i,\omega_o)(n\cdot\omega_i)d\omega_i
+$$ $$
+L_c^*(R)\approx \frac{\sum_{k}^{N}{L(\omega_i^{(k)})G_1(\omega_i^{(k)})}}{\sum_{k}^{N}{G_1(\omega_i^{(k)})}}
+$$</p>
+<p>&emsp;可以看到我们把入射辐亮度 $L_i$ 提出了积分式，$L_c^*(R)$ 即<strong>等效辐亮度</strong>。</p>
+<p>&emsp;而在UE中使用的是<br>$$
+\begin{aligned}
+&\int_{\Omega} f_s(\omega_i,\omega_o)L_i(\omega_i)(n\cdot\omega_i)d\omega_i
+\\
+&\approx
+\frac{1}{N}\sum_{j}^{N}
+\frac{
+f_s(\omega_i^{(j)},\omega_o)L_i(\omega_i^{(j)})(n\cdot\omega_i^{(j)})
+}{
+p(\omega_i^{(j)})
+}
+\\
+&\approx
+\left(
+\frac{
+\sum_{k}^{N}L_i(\omega_i^{(k)})W(\omega_i^{(k)})
+}{
+\sum_{k}^{N}W(\omega_i^{(k)})
+}
+\right)
+\left(
+\frac{1}{N}
+\sum_{j}^{N}
+\frac{
+f_s(\omega_i^{(j)},\omega_o)(n\cdot\omega_i^{(j)})
+}{
+p(\omega_i^{(j)})
+}
+\right)
+\end{aligned}
+$$</p>
+<p>&emsp;其中 $\frac{\sum_{k}^{N}L_i(\omega_i^{(k)})W(\omega_i^{(k)})}{\sum_{k}^{N}W(\omega_i^{(k)})}$ 对应 $L^*_c(R)$。UE公式中权重系数 $W(\omega_i^{(k)}) = n\cdot \omega_i$，对应 $L^*_c(R)$ 中的 $G_1$ ，二者性质相似（值域相同，变化趋势相似），因此最终效果也基本没有差别。<br><br></p>
+<h2 id="3-2-pre-filter-environment-map"><a href="#3-2-pre-filter-environment-map" class="headerlink" title="3.2 pre-filter environment map"></a>3.2 pre-filter environment map</h2><p>&emsp;我们用pre-filter environment map存储预计算的 $L_c^*(R)\approx\frac{\sum_{k}^{N}{L_i(\omega_i^{(k)})(n\cdot\omega_i^{(k)})}}{\sum_{k}^{N}{n\cdot\omega_i^{(k)}}}$ , $L_c^*$ 有两个变量，粗糙度 $k_{roughness}$ 和反射方向 $R$ ，我们均匀地取 $k_{roughness}$ 为0、0.25、0.5、0.75、1.0五个值并预计算出5个cubemap,即pre-filter environment map，实时渲染时，用R和粗糙度进行三线性插值。</p>
+<div style="text-align:center">
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778692051466.png" alt="图片" style="width:90%">
+<p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888">pre-filter environment map</p>
+</div>
+
+<p>&emsp;在引擎中，pre-filter environment map的载体即Reflection probe。</p>
 ]]></content>
       <categories>
         <category>archives</category>
