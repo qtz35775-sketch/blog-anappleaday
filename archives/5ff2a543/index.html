@@ -350,15 +350,83 @@ $$<br>&emsp; 进一步化简：</p>
 <p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p>
 </div>
 
+<br>
+
+<ul>
+<li><strong>其中第二步化简</strong> $p(\omega_i^{(k)})=\frac{D(\omega_h^{(k)})(\omega_h^{(k)}\cdot n)}{4(\omega_o\cdot\omega_h^{(k)})}$ <strong>推导如下：</strong></li>
+</ul>
+<p>&emsp;首先我们有（这个等式后面再解释）：<br>$$
+p(\omega_h)=D(\omega_h)(\omega_h\cdot n )
+$$</p>
+<p>&emsp;根据反射定律 $\omega_i=2(\omega_o\cdot\omega_i)\omega_h-\omega_o$ 有：<br>$$
+d\omega_i=4(\omega_o\cdot\omega_h)d\omega_h
+$$&emsp; 接着由于 $\omega_o$ 相同时， $\omega_i$ 和 $\omega_h$ 一一对应,有：<br>$$
+p(\omega_i)d\omega_i=p(\omega_h)d(\omega_h)
+$$</p>
+<div style="text-align:center">
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778733308624.png" alt="图片" style="width:90%">
+<p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p>
+</div>
+&emsp;进而有：
+$$
+p(\omega_i)=\frac{p(\omega_h)}{\left| \frac{d\omega_i}{d\omega_h} \right|}=\frac{D(\omega_h^{(k)})(\omega_h^{(k)}\cdot n)}{4(\omega_o\cdot\omega_h^{(k)})}
+$$
+
+<br>
+
+<ul>
+<li><strong>为什么</strong> $p(\omega_h)=D(\omega_h)(\omega_h\cdot n )$ <strong>？</strong></li>
+</ul>
+<div style="text-align:center">
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778734551521.png" alt="图片" style="width:95%">
+<p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p>
+</div>
+
+<p><br><br><br></p>
+<ul>
+<li><strong>第四步为什么</strong> $G$ <strong>变成了</strong> $G_1$ <strong>?</strong></li>
+</ul>
+<p>&emsp;$G(\omega_o,\omega_i^{(k)})\approx G_1(\omega_o)G_1(\omega_i^{(k)})$ ，分母上下同时消去了 $G_1(\omega_o)$</p>
+<p><br><br><br></p>
+<p>&emsp;回到 $L_c$ 的推导，Unity发现F对结果影响不大，就去掉了F。</p>
+<ul>
+<li>对于光滑情形， $\omega_h$ 接近 $n$ ， $F(\omega_o\cdot\omega_h^{(k)})\approx F(\omega_o,n)$  ，因此可以作为常数约掉；</li>
+<li>对于非光滑情形，镜面反射变得很弥散，误差也不明显。</li>
+</ul>
+<p>&emsp;于是我们得到了以下公式：<br>$$
+L_c(\omega_o)\approx\frac{\sum_{k}^{N}{\frac{G_1(\omega_i^{(k)})L_i(\omega_i^{(k)})(\omega_o\cdot\omega_h^{(k)})}{\omega_h^{(k)}\cdot n}}}{\sum_{k}^{N}{\frac{G_1(\omega_i^{(k)})(\omega_o\cdot\omega_h^{(k)})}{\omega_h^{(k)}\cdot n}}}
+$$<br>&emsp; 为了进一步化简，我们做了一个很不物理的假设：假设入射方向不影响镜面反射波瓣形状（或形状变化不大可以忽略），那么我们就可以去一个特殊值进行估计，这里我们取特殊值 $\omega_o=n=R$ （垂直入射），即对于任何 $\omega_i$ ，我们都假设它的波瓣形状等于垂直入射时的形状，或者说将垂直入射的结果作为所有方向的结果。<br>&emsp;于是可以进一步化简出：（ $\omega_o$ 和 $n$ 都替换成 $R$ ）<br>$$
+L_c^*(R)\approx \frac{\sum_{k}^{N}{L(\omega_i^{(k)})G_1(\omega_i^{(k)})}}{\sum_{k}^{N}{G_1(\omega_i^{(k)})}}
+$$</p>
+<p>&emsp;这样我们就得到了最终公式：<br>$$
+\int_{\Omega}f_s(\omega_i,\omega_o)L_i(\omega_i)(n\cdot\omega_i)d\omega_i=L_c^*(R)\int_{\Omega}f_s(\omega_i,\omega_o)(n\cdot\omega_i)d\omega_i
+$$</p>
+<br>
+<br>
+<br>
 
 
+<hr>
+<h3 id="附2：IBL剩余部分：BRDF-LUT"><a href="#附2：IBL剩余部分：BRDF-LUT" class="headerlink" title="附2：IBL剩余部分：BRDF LUT"></a>附2：IBL剩余部分：BRDF LUT</h3><p>&emsp;剩余的BRDF部分：<br>$$
+\int_{\Omega}f_s(\omega_i,\omega_o)(n\cdot\omega_i)d\omega_i
+$$</p>
+<p>&emsp;这个积分有变量 $\omega_o$ 、$n$ 、$F_0$ （albedo和metallic决定）、$k_{roughness}$ ，对于各项同性的GGX， $\omega_o$ 和 $n$ 可以合并成一个参数 $\theta_o$ ，这时我们只剩下 $\theta_o$ 、$F_0$ 、$k_{roughness}$  三个变量。</p>
+<p>&emsp;接下来我们将 $F_0$ 分离出积分式：<br>$$\begin{aligned} \int_{\Omega} f_s(\omega_i, \omega_o) \mathbf{n} \cdot \omega_i \, d\omega_i &= \int_{\Omega} f_s(\omega_i, \omega_o) \frac{F(\omega_o, h)}{F(\omega_o, h)} \mathbf{n} \cdot \omega_i \, d\omega_i \\ &= \int_{\Omega} \frac{f_s(\omega_i, \omega_o)}{F(\omega_o, h)} \left( F_0 + (1 - F_0)(1 - \omega_o \cdot h)^5 \right) \mathbf{n} \cdot \omega_i \, d\omega_i \\ &= F_0 \int_{\Omega} \frac{f_s(\omega_i, \omega_o)}{F(\omega_o, h)} (1 - (1 - \omega_o \cdot h)^5) \mathbf{n} \cdot \omega_i \, d\omega_i \\ &\quad + \int_{\Omega} \frac{f_s(\omega_i, \omega_o)}{F(\omega_o, h)} (1 - \omega_o \cdot h)^5 \mathbf{n} \cdot \omega_i \, d\omega_i \\ &= F_0 \cdot \text{scale} + \text{bias} \end{aligned}
+$$</p>
+<p>&emsp; scale和bias可以用根据法线分布函数进行重要性采样的蒙特卡洛积分来计算：<br>$$\begin{aligned} \text{scale} &= \int_{\Omega} \frac{f_s(\omega_i, \omega_o)}{F(\omega_o, h)} (1 - (1 - \omega_o \cdot h)^5) \mathbf{n} \cdot \omega_i \, d\omega_i \\ &\approx \frac{1}{N} \sum_{k=1}^{N} \frac{\frac{D(\omega_h^{(k)}) G(\omega_o, \omega_i^{(k)})}{4(\omega_o \cdot \mathbf{n})(\omega_i^{(k)} \cdot \mathbf{n})} (1 - (1 - \omega_o \cdot \omega_h^{(k)})^5) (\omega_i^{(k)} \cdot \mathbf{n})}{p(\omega_i^{(k)})} \\ &= \frac{1}{N} \sum_{k=1}^{N} \frac{\frac{D(\omega_h^{(k)}) G(\omega_o, \omega_i^{(k)})}{4(\omega_o \cdot \mathbf{n})(\omega_i^{(k)} \cdot \mathbf{n})} (1 - (1 - \omega_o \cdot \omega_h^{(k)})^5) (\omega_i^{(k)} \cdot \mathbf{n})}{\frac{D(\omega_h^{(k)}) (\omega_h^{(k)} \cdot \mathbf{n})}{4(\omega_o \cdot \omega_h^{(k)})}} \\ &= \frac{1}{N} \sum_{k=1}^{N} \frac{G(\omega_o, \omega_i^{(k)}) (\omega_o \cdot \omega_h^{(k)}) (1 - (1 - \omega_o \cdot \omega_h^{(k)})^5)}{(\omega_o \cdot \mathbf{n})(\omega_h^{(k)} \cdot \mathbf{n})} \end{aligned}$$</p>
+<br>
 
+<p>$$\begin{aligned} \text{bias} &= \int_{\Omega} \frac{f_s(\omega_i, \omega_o)}{F(\omega_o, h)} (1 - \omega_o \cdot h)^5 \mathbf{n} \cdot \omega_i \, d\omega_i \\ &\approx \frac{1}{N} \sum_{k=1}^{N} \frac{\frac{D(\omega_h^{(k)}) G(\omega_o, \omega_i^{(k)})}{4(\omega_o \cdot \mathbf{n})(\omega_i^{(k)} \cdot \mathbf{n})} (1 - \omega_o \cdot \omega_h^{(k)})^5 (\omega_i^{(k)} \cdot \mathbf{n})}{p(\omega_i^{(k)})} \\ &= \frac{1}{N} \sum_{k=1}^{N} \frac{\frac{D(\omega_h^{(k)}) G(\omega_o, \omega_i^{(k)})}{4(\omega_o \cdot \mathbf{n})(\omega_i^{(k)} \cdot \mathbf{n})} (1 - \omega_o \cdot \omega_h^{(k)})^5 (\omega_i^{(k)} \cdot \mathbf{n})}{\frac{D(\omega_h^{(k)}) (\omega_h^{(k)} \cdot \mathbf{n})}{4(\omega_o \cdot \omega_h^{(k)})}} \\ &= \frac{1}{N} \sum_{k=1}^{N} \frac{G(\omega_o, \omega_i^{(k)}) (\omega_o \cdot \omega_h^{(k)}) (1 - \omega_o \cdot \omega_h^{(k)})^5}{(\omega_o \cdot \mathbf{n})(\omega_h^{(k)} \cdot \mathbf{n})} \end{aligned}$$</p>
+<p>&emsp;可以用一张uv分别代表 $cos\theta_o$ 和 $k_{roughness}$（二者值域都是[0,1]）的2D纹理存储预计算的scale和bias值，如scale放在r通道，bias放在g通道，这个纹理称为BRDF LUT。</p>
+<div style="text-align:center">
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778740053205.png" alt="图片" style="width:40%">
+<p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888">一张BRDF LUT示例</p>
+</div>
 
-
-
-
-
-
+<p>&emsp;<strong>IBL整体模型为：</strong><br>$$
+L(\omega_o)=k_d^*\rho IrradianceMap(n)+L_c^*(R)(F_0*scale+bias)
+$$</p>
+<br>
 
 
 </div> 
