@@ -324,6 +324,42 @@ $$</p>
 </div>
 
 <p>&emsp;在引擎中，pre-filter environment map的载体即Reflection probe。</p>
+<p>&emsp;由于$L_c^*(R)$ 推导过程中做了很多近似，pre-filter environment map其实并不严格符合物理。例如推动过程中进行了 $\omega_o = n = R$ 的假设，即用垂直入射的波瓣形状表示所有情况的波瓣形状，这会导致掠射角处没有拖长的反射：</p>
+<div style="text-align:center">
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778724225088.png" alt="图片" style="width:90%">
+<p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888">掠射角处没有拖长的反射</p>
+</div>
+&emsp;关于Reflection probe，其所采集的是它自身周围的环境cubemap，物体是套用了probe周围的而不是物体自身周围的光照信息，因此通常会有相当明显的偏移。
+
+<br>
+<br>
+<br>
+
+
+<hr>
+<h3 id="附1：IBL镜面部分估算推导"><a href="#附1：IBL镜面部分估算推导" class="headerlink" title="附1：IBL镜面部分估算推导"></a>附1：IBL镜面部分估算推导</h3><p>&emsp;镜面项是：<br>$$
+L_s(\omega_o)=\int_{\Omega}f_s(\omega_i,\omega_o)L_i(\omega_i)(n\cdot\omega_i)d\omega_i
+$$</p>
+<p>&emsp;我们目标是将 $L_i$ 从积分中分离，这里将目标设为 $L_c(\omega_o)$ ，可以列出方程：<br>$$
+\int_{\Omega}f_s(\omega_i,\omega_o)L_i(\omega_i)(n\cdot\omega_i)d\omega_i =L_c(\omega_o)\int_{\Omega}f_s(\omega_i,\omega_o)(n\cdot\omega_i)d\omega_i
+$$ $$
+L_c(\omega_o)=\frac{\int_{\Omega}f_s(\omega_i,\omega_o)L_i(\omega_i)(n\cdot\omega_i)d\omega_i} {\int_{\Omega}f_s(\omega_i,\omega_o)(n\cdot\omega_i)d\omega_i}
+$$<br>&emsp; 进一步化简：</p>
+<div style="text-align:center">
+<img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778732468800.png" alt="图片" style="width:80%">
+<p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 </div> 
 
