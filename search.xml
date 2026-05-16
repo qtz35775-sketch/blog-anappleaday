@@ -261,7 +261,7 @@
       </tags>
   </entry>
   <entry>
-    <title>全局光照小解（一）：Lightmap、SH、Pre-filter Environment Map</title>
+    <title>全局光照小解（一）：预烘焙方案，Lightmap、SH、Pre-filter Environment Map</title>
     <url>//archives/5ff2a543/</url>
     <content><![CDATA[<h1 id="1-Lightmap"><a href="#1-Lightmap" class="headerlink" title="1 Lightmap"></a>1 Lightmap</h1><p>&emsp;即用一张大texture按texel存储离线渲染出的光照。由于是烘焙死的，只能负责静态物体的间接光照。</p>
 <p>&emsp;以Unity2022为例，主要有三种Lightmap：</p>
@@ -484,7 +484,7 @@ $$</p>
 <p>&emsp;<strong>IBL整体模型为：</strong><br>$$
 L(\omega_o)=k_d^*\rho IrradianceMap(n)+L_c^*(R)(F_0*scale+bias)
 $$</p>
-<p><br><br><br></p>
+<p><br><br><br><br><br><br><br></p>
 <hr>
 <p>[1] Ubp.a <a href="https://zhuanlan.zhihu.com/p/66518450">深入理解 PBR&#x2F;基于图像照明 (IBL)</a><br>[2] 从巴洛克到浪漫的你 <a href="https://zhuanlan.zhihu.com/p/398821283">【Unreal从0到1】【第一章：物理的全局光照实现】1.1，PRT：预计算的全局光照</a><br>[3] <a href="https://zh.wikipedia.org/wiki/%E7%90%83%E8%B0%90%E5%87%BD%E6%95%B0">维基百科：球谐函数</a></p>
 ]]></content>
