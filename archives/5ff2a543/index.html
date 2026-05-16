@@ -205,7 +205,42 @@
     </div>
 </div>
     <div class="post-content" style="zoom:0.85">
-    <h1 id="1-Lightmap"><a href="#1-Lightmap" class="headerlink" title="1 Lightmap"></a>1 Lightmap</h1><p>&emsp;即用一张大texture按texel存储离线渲染出的光照。由于是烘焙死的，只能负责静态物体的间接光照。</p>
+    <table>
+<thead>
+<tr>
+<th align="left">技术</th>
+<th align="left">存储内容</th>
+<th align="left">载体</th>
+<th align="left">优点</th>
+<th align="left">缺点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Lightmap</strong></td>
+<td align="left">逐 texel 预计算的辐照度 $E$（+方向、遮挡信息）</td>
+<td align="left">Baked &#x2F; Directional &#x2F; Shadowmask Lightmap</td>
+<td align="left">烘焙质量高，运行时开销极低</td>
+<td align="left">仅适用于静态物体&#x2F;光源，烘焙耗时长</td>
+</tr>
+<tr>
+<td align="left"><strong>球谐函数 SH</strong></td>
+<td align="left">Irradiance 的 SH 系数（二阶 9 个 RGB 系数）</td>
+<td align="left">Light Probe</td>
+<td align="left">存储量极小，插值稳定</td>
+<td align="left">仅能表示低频，高频需大量系数</td>
+</tr>
+<tr>
+<td align="left"><strong>Pre-filter Environment Map</strong></td>
+<td align="left">不同粗糙度下的等效辐亮度 $L_c^*(R)$，存于 cubemap mipmap</td>
+<td align="left">Reflection Probe</td>
+<td align="left">支持任意粗糙度的镜面反射，查询快速</td>
+<td align="left">垂直入射近似导致掠射角失真，probe 位置偏移</td>
+</tr>
+</tbody></table>
+<br>
+
+<hr>
+<h1 id="1-Lightmap"><a href="#1-Lightmap" class="headerlink" title="1 Lightmap"></a>1 Lightmap</h1><p>&emsp;即用一张大texture按texel存储离线渲染出的光照。由于是烘焙死的，只能负责静态物体的间接光照。</p>
 <p>&emsp;以Unity2022为例，主要有三种Lightmap：</p>
 <p>&emsp; 1. <strong>Baked Lightmap</strong>：最主要的lightmap，存储离线计算出的辐照度。着色时，间接光漫反射颜色$L_o = \frac{albedo}{\pi}E$，$E$即baked lightmap存储的辐照度（工程实现时$\pi$可能被合进其它项）；</p>
 <div style="text-align:center">
