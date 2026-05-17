@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, L²w</rights>
   <subtitle>每天一个新发现</subtitle>
   <title>An apple aDay</title>
-  <updated>2026-05-16T10:33:28.862Z</updated>
+  <updated>2026-05-17T15:46:48.245Z</updated>
   <entry>
     <author>
       <name>L²w</name>
@@ -21,16 +21,16 @@
     <category term="SSGI" scheme="https://anappleaday.top/tags/SSGI/"/>
     <category term="屏幕空间" scheme="https://anappleaday.top/tags/%E5%B1%8F%E5%B9%95%E7%A9%BA%E9%97%B4/"/>
     <content>
-      <![CDATA[<h1 id="1-SSGI"><a href="#1-SSGI" class="headerlink" title="1 SSGI"></a>1 SSGI</h1><p>&emsp;SSGI（Screen Space GI）是利用屏幕空间已有信息进行光线追踪的GI算法。</p>]]>
+      <![CDATA[<h1 id="1-SSGI"><a href="#1-SSGI" class="headerlink" title="1 SSGI"></a>1 SSGI</h1><p>&emsp;SSGI（Screen Space Global Illumination）是一种在屏幕空间做全局光照的实时渲染技术。它的核心思路是：利用屏幕上已有的 G-Buffer 信息（深度、法线、颜色），在屏幕空间进行光线追踪，计算出间接漫反射光（indirect diffuse），从而模拟全局光照效果。</p><h2 id="1-1-SSRT（屏幕空间光线追踪）"><a href="#1-1-SSRT（屏幕空间光线追踪）" class="headerlink" title="1.1 SSRT（屏幕空间光线追踪）"></a>1.1 SSRT（屏幕空间光线追踪）</h2><p>&emsp;SSGI会对屏幕空间的每个可见像素沿几个随机方向进行有限步长采样近似计算一次间接反射光（单次间接光照），整个追踪过程可以拆成四个问题：<strong>光从哪来，往哪去、怎么走、什么时候停、停下来拿到了什么</strong>。</p><h3 id="1-1-1-光从哪来，往哪去"><a href="#1-1-1-光从哪来，往哪去" class="headerlink" title="1.1.1 光从哪来，往哪去"></a>1.1.1 光从哪来，往哪去</h3><p>&emsp;屏幕空间上的每个像素对应摄像机看到的一个表面点，记作 <strong>O</strong>。我们需要计算 O 点的间接光照，因此从 O 点出发进行蒙特卡洛采样：沿 O 点法线所在半球随机生成若干采样方向（入射方向 $\omega_i$ 的逆方向），并在这些方向上进行光线步进，直到遇到间接光的反射点、超出屏幕范围，或达到最大步进距离。</p><div style="text-align:center"><img src="https://blog-pic-1367478391.cos.ap-beijing.myqcloud.com/bolg/1778953005149.png" alt="图片" style="width:80%"><p style="text-align:center;margin-top:2px;font-size:0.8rem;font-weight:300;color:#888"></p></div><p>&emsp;纯随机蒙特卡洛采样需要大量样本才能收敛，低样本下容易出现闪烁和噪点。考虑到性能、稳定性和效果，实际实现中通常采用固定方向核（人为预定若干方向）+ 微小扰动作为采样方向，从而在有限射线数量下获得较平滑且可控的间接光照效果。</p><h3 id="1-1-2-怎么走：把世界空间光线投影到屏幕空间"><a href="#1-1-2-怎么走：把世界空间光线投影到屏幕空间" class="headerlink" title="1.1.2 怎么走：把世界空间光线投影到屏幕空间"></a>1.1.2 怎么走：把世界空间光线投影到屏幕空间</h3><p>&emsp;光线的步进应该在屏幕空间以像素为单位进行。</p><p>&emsp;透视投影不保留距离——世界空间中等距的步长，投影到屏幕上是不均匀的：近处物体占一大片像素，远处物体缩在几像素里。如果在 world space 等距步进再逐次投影，要么近处漏 hit，要么远处浪费步数。所以标准做法是：直接在屏幕空间以像素为单位步进。</p><h3 id="1-1-3-什么时候停：深度比大小"><a href="#1-1-3-什么时候停：深度比大小" class="headerlink" title="1.1.3 什么时候停：深度比大小"></a>1.1.3 什么时候停：深度比大小</h3><p>&emsp;主要问题就是如何判断遇到间接光的反射点，即光路上上一个反弹的物体。</p><p>&emsp;沿着屏幕射线每走一步，当前采样点落在一个像素位置。这个像素对应深度缓冲里的一个深度值——即摄像机看到那个像素位置上”最前面的表面离相机多远”。同时，我们手中当前采样点也有一个深度（从光线当前的 3D 位置投影而来）。比较这两个深度：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">采样点深度 &gt; 深度缓冲深度  →  命中（Hit）— 你穿到了表面后面，被挡住了</span><br><span class="line">采样点深度 &lt; 深度缓冲深度  →  未命中（Miss）— 你还在表面前面，光继续飞</span><br></pre></td></tr></table></figure><p>&emsp;<strong>物理直觉</strong>：光线在场景里走，深度缓冲记录了”离相机最近的那个东西”在哪。采样点如果比它更远，说明被挡住了——这个位置就约等于光线击中了其他表面的地方，也就是间接光上一次反射的位置。命中的那个像素 <strong>H</strong>，就是间接光照的来源。</p><p>&emsp;其余地，当超出屏幕或到达最大步进距离时也会停止步进。</p><h3 id="1-1-4-命中后拿到了什么：Lambertian-假设下的颜色取用"><a href="#1-1-4-命中后拿到了什么：Lambertian-假设下的颜色取用" class="headerlink" title="1.1.4 命中后拿到了什么：Lambertian 假设下的颜色取用"></a>1.1.4 命中后拿到了什么：Lambertian 假设下的颜色取用</h3><p>&emsp;渲染方程是：</p><p>$$L_o(p, \omega_o) = \int_{\Omega} f_r(p, \omega_i, \omega_o) \, L_i(p, \omega_i) \, \cos\theta_i \, d\omega_i$$</p><p>&emsp;SSGI只负责漫反射，因此我们使用Lambert BRDF项,即 $f_r(p, \omega_i, \omega_o) = \frac{albedo}{\pi}$，使用蒙特卡洛法化简得到：</p><p>$$\begin{aligned}L_o^{\text{indirect}}(O, \omega_o) &\approx \frac{1}{M} \sum_{i=1}^{M}       \frac{f_r(O, \omega_i, \omega_o) \cdot L_i(O,\omega_i) \cdot \cos\theta_i}           {\text{pdf}(\omega_i)} \\&= \frac{1}{M} \sum_{i=1}^{M}       \frac{\frac{albedo}{\pi} \cdot L_i(O,\omega_i) \cdot \cos\theta_i}           {\frac{\cos \theta_i}{\pi}} \\&= albedo \cdot L_i(O,\omega_i)\end{aligned}$$</p><p>&emsp;我们假设 $L_i(O,\omega_i) = L_o(H,-\omega_i) = L_o(H) \approx L_o(H_{screen})=C(H_{screen})$，即用屏幕上H点对应像素的颜色作为H向O发出的辐亮度。因此有：<br>$$L_o^{\text{indirect}}(O, \omega_o) \approx albedo \cdot C(H_{screen})$$</p><p>&emsp;对于从O点发出的每一条采样射线，采样结果即<em><strong>H点对应像素颜色*O点无光照颜色</strong></em>。</p><p>&emsp;这里的近似来源于屏幕颜色可能包含了少量高光或其他非漫反射分量，但对漫反射间接光的贡献通常影响不大，而如果使用渲染后不包含其他分量的漫反射颜色，就可以将其视作严格等于：$ L_o(H) = C_{diffuse}(H_{screen\_diffuse})$。</p><p>&emsp;最终获得的O点受到的间接光照即M条采样结果取平均（蒙特卡洛）：<br>$$L_o^{\text{indirect}} \approx albedo \cdot \left( \frac{1}{M} \sum_{i=1}^{M} C(H_i) \right)$$</p><p><br><br><br></p><h2 id="1-2-Denoise"><a href="#1-2-Denoise" class="headerlink" title="1.2 Denoise"></a>1.2 Denoise</h2>]]>
     </content>
     <id>https://anappleaday.top/archives/d46a61e7/</id>
     <link href="https://anappleaday.top/archives/d46a61e7/"/>
     <published>2026-05-16T08:36:09.000Z</published>
     <summary>
-      <![CDATA[<h1 id="1-SSGI"><a href="#1-SSGI" class="headerlink" title="1 SSGI"></a>1 SSGI</h1><p>&emsp;SSGI（Screen Space GI）是利用屏幕空间已有信息进行光线追踪的GI算法。</p>]]>
+      <![CDATA[<h1 id="1-SSGI"><a href="#1-SSGI" class="headerlink" title="1 SSGI"></a>1 SSGI</h1><p>&emsp;SSGI（Screen Space Global Illumination）是一种在屏幕空间做全]]>
     </summary>
     <title>（--施工中--）全局光照小解（二）：SSGI</title>
-    <updated>2026-05-16T10:33:28.862Z</updated>
+    <updated>2026-05-17T15:46:48.245Z</updated>
   </entry>
   <entry>
     <author>
